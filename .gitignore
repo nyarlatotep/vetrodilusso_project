@@ -21,3 +21,15 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+# Visual Studio dirs and files
+.vscode
+.vscode/*
+.vs
+.vs/*
+*.sln
+*.user
+*.njsproj
+*.esproj
+*.config
+package-lock.json

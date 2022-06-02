@@ -1,0 +1,57 @@
+name: Deploy to Ubuntu server
+trigger:
+- master
+
+pool:
+  vmImage: self-hosted
+  name: Ubuntu-Agent
+
+steps:
+- script: |
+    CURR="$(pwd)"
+    TRGT="/home/$USER"
+    APP="$TRGT/vetrodilusso"
+
+    if [[ -d $APP && -e $APP ]]; then
+        rm -R $APP
+    fi
+
+    if [[ -e $TRGT && -w $TRGT ]]; then
+        echo 'Starting with the deployment process, '
+        mv $CURR $APP 
+        echo 'doing the first steps... wait..'
+        cd $APP
+        echo
+      else
+        echo 'Starting with the deployment process,'
+        echo 'doing the first steps... wait..'
+        cp -u -r $CURR $APP 
+        cd $APP
+        echo
+    fi
+
+        chmod -R +wrx $APP
+
+    if [[ $(pwd) != $APP ]]; then
+        cd $APP 
+    fi
+
+        echo 'Success!. the first step finished with any issue... Performing the next step...'
+        echo 'Starting compilation for development...'
+        echo `npm install`
+        echo 'Wait.. This may take several minutes...'
+
+    if [[ $(`npm run start`) -eq "0" ]]; then
+        echo 'Succes!. The app was compiled. No further errors...'
+        echo
+        echo 'Performing the next step.. please wait a little bit...'
+        echo 'Done!. finishing the deployment. '
+        echo 'This Webapp can be found in "https://$(hostname):3000" '
+        exit 0
+      else
+        echo 'Oh! something is getting problems.. Please inspect the logs'
+        echo 'and your project settings to find the issue(s) and try again';
+        exit 1
+    fi
+
+  displayName: 'Initialize development mode'
