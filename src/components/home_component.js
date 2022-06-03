@@ -2,32 +2,31 @@ import { contentsTheme, ContentThemeContext } from '../assets/scripts/contents_t
 import { Themes } from '../assets/scripts/themes';
 const React = require( 'react' );
 
-class Introduction extends React.Component{
+class Introduction extends React.Component {
 	render () {
-		let props = this.props;
-		let theme = this.context;
+		let theme = this.props.theme;
 
 		return (
 			<section style={ theme }
-				id='intro-section' { ...props } >
+				id='intro-section'>
 				<article id='intro-article'>
 					<h2>
 						¿Quiénes Somos?
 					</h2>
 
-					<p id='intro-p-one'>
+					<p className='intro-ps' id='intro-p-one'>
 						<strong>Somos una compañía 100% mexicana</strong>, con amplia experiencia en el mercado <br />
 						de accesorios para la construcción, siendo especialistas en su comercialización.
 					</p>
 
-					<p id='intro-p-two'>
+					<p className='intro-ps' id='intro-p-two'>
 						Contamos con una amplia gama de productos de calidad, así como personal capacitado <br />
 						y con la disposición para atenderle de manera pronta y eficaz.
 					</p>
 
-					<p id='intro-p-three'>
+					<p className='intro-ps' id='intro-p-three'>
 						Nuestro principal objetivo es brindarle productos y servicios deprimera calidad; <br />
-						lo que nos ha permitido mantener y fortalecer relaciónes comerciales con nuestros clientes. <br/>
+						lo que nos ha permitido mantener y fortalecer relaciónes comerciales con nuestros clientes. <br />
 						<small>
 							Confíe en la calidad y la variedad de nuestra línea de productos
 						</small>
@@ -45,29 +44,19 @@ class BodyContent extends React.Component {
 		super( props );
 
 		this.state = {
-			theme: contentsTheme.dark,
-			appTheme: this.props.theme
+			theme:
+				this.props.theme === Themes.dark
+					? contentsTheme.light
+					: contentsTheme.dark
 		};
 
-		this.toogleTheme = () => {
-			this.setState( state => ( {
-				theme:
-					state.appTheme === Themes.dark
-						? contentsTheme.light
-						: contentsTheme.dark
-			} ) );
-		};
 	}
-
-	componentDidMount = () => this.toogleTheme;
-
-	componentDidUpdate = () => this.toogleTheme;
 
 	render () {
 		return (
 			<>
 				<ContentThemeContext.Provider value={ this.state.theme }>
-					<Introduction onChange={ this.toogleTheme } />
+					<Introduction theme={ this.state.theme } />
 				</ContentThemeContext.Provider>
 			</>
 		);
