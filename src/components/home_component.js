@@ -13,20 +13,29 @@ class BodyContent extends React.Component {
 					</h2>
 
 					<p className='intro-ps' id='intro-p-one'>
-						<strong>Somos una compañía 100% mexicana</strong>, con amplia experiencia en el mercado <br />
-						de accesorios para la construcción, siendo especialistas en su comercialización.
+							Somos una compañía 100% mexicana,
+						
+						con amplia experiencia dentro del mercado <br />
+						de accesorios para la construcción; O en otras palabras,
+						<strong>
+							somos especialistas en el comercio de dicho mercado.
+						</strong>
 					</p>
 
 					<p className='intro-ps' id='intro-p-two'>
-						Contamos con una amplia gama de productos de calidad, así como personal capacitado <br />
-						y con la disposición para atenderle de manera pronta y eficaz.
+						Contamos con una amplia línea de productos de alta calidad, así como con
+						<strong>
+							personal <br />
+							cualificado y capacitado, para brindarle atención personalizada, pronta y eficaz.
+						</strong>
 					</p>
 
 					<p className='intro-ps' id='intro-p-three'>
-						Nuestro principal objetivo es brindarle productos y servicios deprimera calidad; <br />
-						lo que nos ha permitido mantener y fortalecer relaciónes comerciales con nuestros clientes. <br />
+						Nuestro objetivo principal, es ofrecer servicios y productos de primera calidad; <br />
+						lo cual nos ha permitido mantener, sólidas relaciónes de negocios con nuestros clientes. <br />
 						<small>
-							Confíe en la calidad y la variedad de nuestra línea de productos
+							Puede confiar en la calidad y la variedad de nuestra línea de productos y,
+							a la vez en los servicios que ponemos a su disposición.
 						</small>
 					</p>
 				</article>
