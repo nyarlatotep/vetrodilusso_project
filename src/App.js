@@ -11,11 +11,11 @@ function App ( props ) {
 
 	return (
 		<>
-			<div style={ props.theme } id='app-div-container'>
+			<div style={ props.theme.bodyTheme } id='app-div-container'>
 				{ props.header }
 			</div>
 
-				<BodyContent theme={ props.theme } />
+			<BodyContent theme={ props.theme.content } />
 		</>
 	);
 }

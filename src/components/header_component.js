@@ -19,16 +19,16 @@ class Header extends React.Component {
 		this.toogle_theme = () => {
 			this.setState( state => ( {
 				theme:
-					state.theme === Themes.dark.bodyTheme
-						? Themes.light
-						: Themes.dark,
+					state.theme === Themes.dark
+						? Themes.light.bodyTheme && Themes.light.content
+						: Themes.dark.bodyTheme && Themes.dark.content,
 			} ) );
 		};
 
 	}
 	render () {
 		const header = (
-			<header id='app-header' style={ { backgroundColor: this.state.theme } }>
+			<header id='app-header' style={ { backgroundColor: this.state.theme.bodyTheme } }>
 				<aside id='header-logo-aside'>
 					{
 						this.state.theme === Themes.dark
@@ -84,7 +84,7 @@ class ThemeButton extends React.Component {
 			<button
 				type='button'
 				id='theme-btn'
-				style={ theme }
+				style={ theme.bodyTheme }
 				{ ...props }
 				name='theme button' />
 		);
