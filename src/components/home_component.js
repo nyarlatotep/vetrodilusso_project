@@ -1,12 +1,10 @@
 const React = require( 'react' );
 
-class Introduction extends React.Component {
+class BodyContent extends React.Component {
 	render () {
-		let props = this.props;
-
 		return (
 			<section
-				style={ props.style }
+				style={ this.props.theme }
 				id='intro-section'>
 				<article id='intro-article'>
 					<h2>
@@ -35,23 +33,4 @@ class Introduction extends React.Component {
 		);
 	};
 }
-
-class BodyContent extends React.Component {
-	constructor ( props ) {
-		super( props );
-
-		this.state = {
-			theme: this.props.theme.content
-		};
-	}
-
-	render () {
-		return (
-			<>
-				<Introduction style={ this.state.theme } />
-			</>
-		);
-	};
-}
-
 export default BodyContent;

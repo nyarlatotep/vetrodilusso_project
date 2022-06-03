@@ -22,7 +22,7 @@ function App ( props ) {
 			</div>
 
 			<ThemeContext.Provider value={ props.theme.content }>
-				<BodyContent theme={ props.theme } />
+				<BodyContent theme={ props.theme.content } />
 			</ThemeContext.Provider>
 		</>
 	);
