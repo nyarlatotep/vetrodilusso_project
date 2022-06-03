@@ -25,14 +25,14 @@
 
 .intro-ps {
   width: 70vmin;
-  font-size: 17px;
+  font-size: 16px;
   display: table-caption;
   text-align: start;
-  padding-left: 20px;
+  padding-left: 15px;
   margin-block: 0vw 1vw;
   line-break: strict;
   word-spacing: 1px;
-  letter-spacing: -.99999999px;
+  letter-spacing: -.7px;
   text-shadow: 0 0 2px rgb(114 114 114);
   font-weight: 300;
   margin-right: 0vmin;
