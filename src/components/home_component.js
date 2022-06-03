@@ -36,18 +36,18 @@ class BodyContent extends React.Component {
 	constructor ( props ) {
 		super( props );
 
-		this.appTheme = this.props.theme;
 		this.state = {
-			theme: contentsTheme.black
+			theme: contentsTheme.black,
+			appTheme: this.props.theme
 		};
 
 		this.toogleTheme = () => {
-			this.setState( () => {
+			this.setState( state => ( {
 				theme:
-				this.appTheme === Themes.dark
-					? contentsTheme.dark
-					: contentsTheme.light
-			} );
+					state.appTheme === Themes.dark
+						? contentsTheme.dark
+						: contentsTheme.light
+			} ) );
 		};
 	}
 
@@ -56,11 +56,10 @@ class BodyContent extends React.Component {
 	}
 
 	componentDidUpdate = state => {
-		if ( this.appTheme === Themes.dark )
+		if ( state.appTheme === Themes.dark )
 			return state.theme = contentsTheme.dark;
 		else
-			return state.theme = contentsTheme.light
-		return this.toogleTheme;
+			return state.theme = contentsTheme.light;
 	}
 
 	render () {
