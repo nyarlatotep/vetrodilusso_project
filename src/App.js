@@ -15,9 +15,7 @@ function App ( props ) {
 				{ props.header }
 			</div>
 
-			<div id='app-div-content'>
 				<BodyContent theme={ props.theme } />
-			</div>
 		</>
 	);
 }
