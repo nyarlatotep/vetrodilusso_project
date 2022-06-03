@@ -1,5 +1,3 @@
-import { ThemeContext } from '../assets/scripts/themes'
-
 const React = require( 'react' );
 
 class Introduction extends React.Component {
@@ -7,7 +5,8 @@ class Introduction extends React.Component {
 		let props = this.props;
 
 		return (
-			<section { ...props }
+			<section
+				style={ props.style }
 				id='intro-section'>
 				<article id='intro-article'>
 					<h2>
@@ -42,21 +41,17 @@ class BodyContent extends React.Component {
 		super( props );
 
 		this.state = {
-			theme: this.props.theme
+			theme: this.props.theme.content
 		};
 	}
 
 	render () {
 		return (
 			<>
-				<ThemeContext.Provider value={ this.state.theme }>
-					<Introduction style={ this.state.theme } />
-				</ThemeContext.Provider>
+				<Introduction style={ this.state.theme } />
 			</>
 		);
 	};
 }
-
-BodyContent.contextType = ThemeContext;
 
 export default BodyContent;
