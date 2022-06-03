@@ -46,7 +46,7 @@ body {
 	height: 4.5vmin;
 	padding-top: 5px;
 	text-indent: 10px;
-	word-spacing: 2px;
+	word-spacing: -1px;
 }
 
 #app-logo {
