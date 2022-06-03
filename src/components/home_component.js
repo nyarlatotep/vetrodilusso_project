@@ -42,7 +42,7 @@ class BodyContent extends React.Component {
 		super( props );
 
 		this.state = {
-			theme: this.props.theme
+			theme: this.props.theme.content
 		};
 	}
 

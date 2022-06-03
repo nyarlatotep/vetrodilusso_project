@@ -13,21 +13,15 @@ class Header extends React.Component {
 	constructor ( props ) {
 		super( props );
 		this.state = {
-			theme: Themes.dark.bodyTheme,
-			bodyTheme: Themes.dark.content
+			theme: Themes.dark
 		};
 
 		this.toogle_theme = () => {
 			this.setState( state => ( {
 				theme:
 					state.theme === Themes.dark.bodyTheme
-						? Themes.light.bodyTheme
-						: Themes.dark.bodyTheme,
-
-				bodyTheme:
-					state.bodyTheme === Themes.dark.content
-						? Themes.light.content
-						: Themes.dark.content
+						? Themes.light
+						: Themes.dark,
 			} ) );
 		};
 
@@ -37,7 +31,7 @@ class Header extends React.Component {
 			<header id='app-header' style={ { backgroundColor: this.state.theme } }>
 				<aside id='header-logo-aside'>
 					{
-						this.state.theme === Themes.dark.content || Themes.dark.bodyTheme
+						this.state.theme === Themes.dark
 							? <img src={ logo_bco } id='app-logo' alt='Vetro Di Lusso logo' />
 							: <img src={ logo_ngo } id='app-logo' alt='Vetro Di Lusso logo' />
 					}
@@ -51,7 +45,7 @@ class Header extends React.Component {
 						<ThemeContext.Provider value={ this.state.theme } >
 							<ThemeButton onClick={ this.toogle_theme }>
 								{
-									this.state.theme === Themes.dark.content || Themes.dark.bodyTheme
+									this.state.theme === Themes.dark
 										? <FontAwesomeIcon icon='moon' />
 										: <FontAwesomeIcon icon='sun' />
 								}
@@ -75,7 +69,6 @@ class Header extends React.Component {
 				<App
 					header={ header }
 					theme={ this.state.theme }
-					bodyTheme={ this.state.bodyTheme }
 				/>
 			</ThemeContext.Provider>
 		);
