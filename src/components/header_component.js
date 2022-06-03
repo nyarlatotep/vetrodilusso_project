@@ -40,15 +40,6 @@ class Header extends React.Component {
 
 				<aside id='header-btn-aside'>
 					<nav id='btn-aside-nav'>
-						<label id='label-search'>
-							<FontAwesomeIcon icon='magnifying-glass' />
-							<input
-								type='text'
-								placeholder=' "Search" '
-								id='input-search'
-							/>
-						</label>
-
 						<ThemeContext.Provider value={ this.state.theme } >
 							<ThemeButton onClick={ this.toogle_theme }>
 								{
@@ -58,6 +49,14 @@ class Header extends React.Component {
 								}
 							</ThemeButton>
 						</ThemeContext.Provider>
+						<label id='label-search'>
+							<FontAwesomeIcon icon='magnifying-glass' />
+							<input
+								type='text'
+								placeholder=' Type here... '
+								id='input-search'
+							/>
+						</label>
 					</nav>
 				</aside>
 			</header>

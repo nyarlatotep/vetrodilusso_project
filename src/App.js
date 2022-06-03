@@ -1,8 +1,14 @@
 import './assets/css/App.css';
+import { Themes } from './assets/scripts/themes'
 
 function App ( props ) {
+	const elemnt = document.querySelector( 'body' );
+	if ( props.theme === Themes.dark )
+		elemnt.background = Themes.light.backgroundColor;
+	else elemnt.background = Themes.dark.backgroundColor;
+
 	return (
-		<div style={ props.theme }>
+		<div style={ props.theme } id='app-div-container'>
 			{ props.header }
 		</div>
 	);
