@@ -51,15 +51,15 @@ class BodyContent extends React.Component {
 		};
 	}
 
-	componentDidMount = state => {
-		return state.theme;
-	}
+	componentDidMount = () => this.toogleTheme;
 
-	componentDidUpdate = state => {
-		if ( state.appTheme === Themes.dark )
-			return state.theme = contentsTheme.dark;
-		else
-			return state.theme = contentsTheme.light;
+	componentDidUpdate = () => {
+		this.setState( state => ( {
+			theme:
+				state.appTheme === Themes.dark
+					? contentsTheme.dark
+					: contentsTheme.light
+		} ) );
 	}
 
 	render () {
