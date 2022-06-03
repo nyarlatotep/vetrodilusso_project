@@ -4,10 +4,10 @@ import { Themes } from './assets/scripts/themes'
 
 function App ( props ) {
 	const elemnt = document.querySelector( 'body' );
-	if ( props.theme === Themes.light )
-		elemnt.style.backgroundColor = Themes.dark.backgroundColor;
+	if ( props.theme === Themes.light || Themes.light.bodyTheme )
+		elemnt.style.backgroundColor = Themes.dark.bodyTheme.backgroundColor;
 	else
-		elemnt.style.backgroundColor = Themes.light.backgroundColor;
+		elemnt.style.backgroundColor = Themes.light.bodyTheme.backgroundColor;
 
 	return (
 		<>

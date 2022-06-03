@@ -1,5 +1,5 @@
-import { contentsTheme, ContentThemeContext } from '../assets/scripts/contents_themes';
-import { Themes } from '../assets/scripts/themes';
+import { ContentThemeContext } from '../assets/scripts/contents_themes';
+
 const React = require( 'react' );
 
 class Introduction extends React.Component {
@@ -42,7 +42,7 @@ class BodyContent extends React.Component {
 		super( props );
 
 		this.state = {
-			theme: this.props.theme 
+			theme: this.props.theme
 		};
 	}
 

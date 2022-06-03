@@ -4,8 +4,7 @@ import logo_ngo from '../assets/img/logo_ngo.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { library } from '@fortawesome/fontawesome-svg-core';
 import { fas } from '@fortawesome/free-solid-svg-icons';
-import { Themes, ThemeContext } from '../assets/scripts/themes'
-import { contentsTheme, ContentThemeContext } from '../assets/scripts/contents_themes'
+import { Themes, ThemeContext } from '../assets/scripts/themes';
 const React = require( 'react' );
 
 library.add( fas );
@@ -15,20 +14,20 @@ class Header extends React.Component {
 		super( props );
 		this.state = {
 			theme: Themes.dark,
-			bodyTheme: contentsTheme.dark
+			bodyTheme: Themes.dark.content
 		};
 
 		this.toogle_theme = () => {
 			this.setState( state => ( {
 				theme:
 					state.theme === Themes.dark
-						? Themes.light
-						: Themes.dark,
+						? Themes.light.bodyTheme
+						: Themes.dark.bodyTheme,
 
 				bodyTheme:
-					state.bodyTheme === contentsTheme.dark
-						? contentsTheme.light
-						: contentsTheme.dark
+					state.bodyTheme === Themes.dark.content
+						? Themes.light.content
+						: Themes.dark.content
 			} ) );
 		};
 
@@ -38,7 +37,7 @@ class Header extends React.Component {
 			<header id='app-header' style={ { backgroundColor: this.state.theme } }>
 				<aside id='header-logo-aside'>
 					{
-						this.state.theme === Themes.dark
+						this.state.theme === Themes.dark || Themes.dark.bodyTheme 
 							? <img src={ logo_bco } id='app-logo' alt='Vetro Di Lusso logo' />
 							: <img src={ logo_ngo } id='app-logo' alt='Vetro Di Lusso logo' />
 					}
@@ -52,7 +51,7 @@ class Header extends React.Component {
 						<ThemeContext.Provider value={ this.state.theme } >
 							<ThemeButton onClick={ this.toogle_theme }>
 								{
-									this.state.theme === Themes.dark
+									this.state.theme === Themes.dark || Themes.dark.bodyTheme
 										? <FontAwesomeIcon icon='moon' />
 										: <FontAwesomeIcon icon='sun' />
 								}
