@@ -35,7 +35,9 @@ class Header extends React.Component {
 							? <img src={ logo_bco } id='app-logo' alt='Vetrodilusso logo' />
 							: <img src={ logo_ngo } id='app-logo' alt='Vetrodilusso logo' />
 					}
-					Vetrodilusso
+					<p id='vetro-p'>
+						Vetrodilusso
+					</p>
 				</aside>
 
 				<aside id='header-btn-aside'>

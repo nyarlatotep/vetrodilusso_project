@@ -3,7 +3,7 @@ import { Themes } from './assets/scripts/themes'
 
 function App ( props ) {
 	const elemnt = document.querySelector( 'body' );
-	if ( props.theme === Themes.dark )
+	if ( props.theme === Themes.light )
 		elemnt.style.backgroundColor = Themes.dark.backgroundColor;
 	else
 		elemnt.style.backgroundColor = Themes.light.backgroundColor;
