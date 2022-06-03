@@ -16,22 +16,22 @@ steps:
         echo 'doing the initial steps... wait..'
 
     if [[ -d $APP && -e $APP ]]; then
-        echo 'Info:The $APP dir exists... This will be removed'
+        echo "Info:The $APP dir exists... This will be removed"
         rm -R $APP
-        echo 'Done!. $APP directory was removed successful'
+        echo "Done!. $APP directory was removed successful"
         echo
     fi
 
     if [[ -e $TRGT && -w $TRGT ]]; then
-        echo 'Info:The app dir will be moved from $CURR to $APP'
+        echo "Info:The app dir will be moved from $CURR to $APP"
         mv $CURR $APP 
-        echo 'Info:The app dir was moved from $CURR to $APP'
+        echo "Info:The app dir was moved from $CURR to $APP"
         cd $APP
         echo
       else
-        echo 'Info:The app dir will be copied from $CURR to $APP'
+        echo "Info:The app dir will be copied from $CURR to $APP"
         cp -u -r $CURR $APP 
-        echo 'Info:The app dir was copied from $CURR to $APP'
+        echo "Info:The app dir was copied from $CURR to $APP"
         cd $APP
         echo
     fi
@@ -51,7 +51,7 @@ steps:
         echo 'Done!. The app was compiled. No further errors...'
         echo
         echo 'Info:. finishing the deployment. '
-        echo 'This Webapp can be found in "http://$(hostname):3000" '
+        echo 'This Webapp can be found in "http://${hostname}:3000" '
         exit 0
       else
         echo 'Error:. Oh! something is getting problems.. Please inspect the logs'
