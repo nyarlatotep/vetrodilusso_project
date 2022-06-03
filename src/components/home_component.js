@@ -1,4 +1,4 @@
-import intro_img from '../assets/img/intro_img.png';
+import intro_img from '../assets/img/intro_img.jpg';
 const React = require( 'react' );
 
 class BodyContent extends React.Component {
