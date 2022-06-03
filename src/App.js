@@ -4,7 +4,7 @@ import { Themes } from './assets/scripts/themes'
 
 function App ( props ) {
 	const elemnt = document.querySelector( 'body' );
-	if ( props.theme === Themes.light || Themes.light.bodyTheme )
+	if ( props.theme === Themes.light.content || Themes.light.bodyTheme )
 		elemnt.style.backgroundColor = Themes.dark.bodyTheme.backgroundColor;
 	else
 		elemnt.style.backgroundColor = Themes.light.bodyTheme.backgroundColor;

@@ -1,4 +1,4 @@
-import { ContentThemeContext } from '../assets/scripts/contents_themes';
+import { ThemeContext } from '../assets/scripts/themes'
 
 const React = require( 'react' );
 
@@ -49,14 +49,14 @@ class BodyContent extends React.Component {
 	render () {
 		return (
 			<>
-				<ContentThemeContext.Provider value={ this.state.theme }>
+				<ThemeContext.Provider value={ this.state.theme }>
 					<Introduction style={ this.state.theme } />
-				</ContentThemeContext.Provider>
+				</ThemeContext.Provider>
 			</>
 		);
 	};
 }
 
-BodyContent.contextType = ContentThemeContext;
+BodyContent.contextType = ThemeContext;
 
 export default BodyContent;
