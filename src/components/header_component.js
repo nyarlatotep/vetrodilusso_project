@@ -46,8 +46,8 @@ class Header extends React.Component {
 							<ThemeButton onClick={ this.toogle_theme }>
 								{
 									this.state.theme === Themes.dark
-										? <FontAwesomeIcon icon='sun' />
-										: <FontAwesomeIcon icon='moon' />
+										? <FontAwesomeIcon icon='moon' />
+										: <FontAwesomeIcon icon='sun' />
 								}
 							</ThemeButton>
 						</ThemeContext.Provider>
