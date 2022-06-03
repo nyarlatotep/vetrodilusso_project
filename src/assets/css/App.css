@@ -99,6 +99,7 @@ body {
 	text-align: center;
 	box-shadow: 0px 0px 5px rgb(122 122 122);
 	margin-left: 11vw;
+	cursor: pointer;
 }
 
 #input-search ::-webkit-textfield-decoration-container {

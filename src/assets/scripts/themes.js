@@ -4,14 +4,12 @@ export const Themes = {
 	dark: {
 		backgroundColor: '#000',
 		color: '#eee',
-		textShadow: '0 0 4px rgb(160 160 160)',
-		border: '1px thin #ccc'
+		textShadow: '0 0 10px rgb(160 160 160)',
 	},
 	light: {
 		backgroundColor: '#fff',
 		color: '#222',
-		textShadow: '0 0 4px rgb(60 60 60)',
-		border: '1px thin #887'
+		textShadow: '0 0 6px rgb(60 60 60)'
 	},
 }
 export const ThemeContext = React.createContext( Themes.dark );
