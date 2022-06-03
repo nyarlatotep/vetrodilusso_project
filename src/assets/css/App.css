@@ -40,12 +40,13 @@ body {
 	margin-inline: 0;
 	margin-block: 11px 0;
 	position: absolute;
-	font-size: 1.9em;
+	font-size: 1.6em;
 	width: 18vmin;
 	border: 0;
 	height: 4.5vmin;
 	padding-top: 5px;
 	text-indent: 10px;
+	word-spacing: 2px;
 }
 
 #app-logo {
