@@ -8,8 +8,8 @@ export const Themes = {
 			textShadow: '0 0 10px rgb(160 160 160)',
 		},
 		content: {
-			backgroundColor: 'rgba(80 80 80 / 65%)',
-			color: '#bbb'
+			backgroundColor: 'rgba(50 50 50 / 95%)',
+			color: 'rgb(220 220 220)'
 		}
 	},
 	light: {
@@ -19,8 +19,8 @@ export const Themes = {
 			textShadow: '0 0 6px rgb(60 60 60)'
 		},
 		content: {
-			backgroundColor: 'rgba(200 200 200 / 65%)',
-			color: 'rgb(30 30 30)',
+			backgroundColor: 'rgba(150 150 150 / 95%)',
+			color: 'rgb(35 35 35)',
 		}
 	}
 }

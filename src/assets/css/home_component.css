@@ -5,17 +5,29 @@
 	border: 2px groove rgb(127 127 127);
 	border-radius: 18px;
 	text-shadow: 0 0 1px #333;
-	text-indent: 20px;
+	text-indent: 0px;
 	word-break: break-word;
 	line-break: strict;
-	letter-spacing: 0;
+	letter-spacing: 0px;
 	word-spacing: 0px;
 	margin-left: 20vmin;
 	margin-top: 2vmin;
 }
 
+	#intro-section > h2 {
+		text-indent: 100px;
+	}
+
 .intro-ps {
 	width: 70vmin;
 	font-size: 14px;
-	text-align: center;
+	display: table-caption;
+	text-align: start;
+	padding-left: 40px;
+}
+
+#intro-img {
+	width: 75%;
+	height: 30vmin;
+	background: fixed;
 }

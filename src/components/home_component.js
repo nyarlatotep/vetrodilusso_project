@@ -1,3 +1,4 @@
+import intro_img from '../assets/img/intro_img.png';
 const React = require( 'react' );
 
 class BodyContent extends React.Component {
@@ -29,6 +30,9 @@ class BodyContent extends React.Component {
 						</small>
 					</p>
 				</article>
+				<aside id='content-aside'>
+					<img src={ intro_img } alt='decorative banner' id='intro-img' />
+				</aside>
 			</section>
 		);
 	};
