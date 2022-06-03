@@ -32,11 +32,11 @@ class Header extends React.Component {
 				<aside id='header-logo-aside'>
 					{
 						this.state.theme === Themes.dark
-							? <img src={ logo_bco } id='app-logo' alt='Vetrodilusso logo' />
-							: <img src={ logo_ngo } id='app-logo' alt='Vetrodilusso logo' />
+							? <img src={ logo_bco } id='app-logo' alt='Vetro Di Lusso logo' />
+							: <img src={ logo_ngo } id='app-logo' alt='Vetro Di Lusso logo' />
 					}
 					<p id='vetro-p'>
-						Vetrodilusso
+						Vetro Di Lusso
 					</p>
 				</aside>
 
