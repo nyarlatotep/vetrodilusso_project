@@ -33,3 +33,6 @@ yarn-error.log*
 *.esproj
 *.config
 package-lock.json
+*.publishsettings
+
+# Vetrodilusso-GithubApp-secret: f9a8a06be1142a2c98b578b46a55c015d5e0b41b
