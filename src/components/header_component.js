@@ -5,6 +5,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { library } from '@fortawesome/fontawesome-svg-core';
 import { fas } from '@fortawesome/free-solid-svg-icons';
 import { Themes, ThemeContext } from '../assets/scripts/themes'
+import { contentsTheme, ContentThemeContext } from '../assets/scripts/contents_themes'
 const React = require( 'react' );
 
 library.add( fas );
@@ -14,6 +15,7 @@ class Header extends React.Component {
 		super( props );
 		this.state = {
 			theme: Themes.dark,
+			bodyTheme: contentsTheme.dark
 		};
 
 		this.toogle_theme = () => {
@@ -22,6 +24,11 @@ class Header extends React.Component {
 					state.theme === Themes.dark
 						? Themes.light
 						: Themes.dark,
+
+				bodyTheme:
+					state.bodyTheme === contentsTheme.dark
+						? contentsTheme.light
+						: contentsTheme.dark
 			} ) );
 		};
 
@@ -69,6 +76,7 @@ class Header extends React.Component {
 				<App
 					header={ header }
 					theme={ this.state.theme }
+					bodyTheme={ this.state.bodyTheme }
 				/>
 			</ThemeContext.Provider>
 		);

@@ -6,8 +6,8 @@ export const contentsTheme = {
 		color: '#bbb'
 	},
 	light: {
-		backgroundColor: 'rgba(175 175 175 / 65%)',
-		color: '#555',
+		backgroundColor: 'rgba(200 200 200 / 65%)',
+		color: 'rgb(30 30 30)',
 	}
 };
 

@@ -1,16 +1,20 @@
 ﻿#intro-section {
-	width: 85%;
-	height: 35vmin;
-	text-align: start;
+	width: 80%;
+	height: 40vmin;
+	text-align: inherit;
 	border: 2px groove rgb(127 127 127);
 	border-radius: 18px;
 	text-shadow: 0 0 1px #333;
-	text-indent: 10px;
+	text-indent: 20px;
 	word-break: break-word;
 	line-break: strict;
-	align-self: center;
+	letter-spacing: 0;
+	word-spacing: 0px;
+	margin-left: 20vmin;
 }
 
 .intro-ps {
-	width: 20vmin;
+	width: 70vmin;
+	font-size: 14px;
+	text-align: center;
 }

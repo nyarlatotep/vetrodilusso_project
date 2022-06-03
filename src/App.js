@@ -15,7 +15,7 @@ function App ( props ) {
 				{ props.header }
 			</div>
 
-				<BodyContent theme={ props.theme } />
+				<BodyContent theme={ props.bodyTheme } />
 		</>
 	);
 }

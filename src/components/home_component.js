@@ -4,10 +4,10 @@ const React = require( 'react' );
 
 class Introduction extends React.Component {
 	render () {
-		let theme = this.props.theme;
+		let props = this.props;
 
 		return (
-			<section style={ theme }
+			<section { ...props }
 				id='intro-section'>
 				<article id='intro-article'>
 					<h2>
@@ -37,26 +37,20 @@ class Introduction extends React.Component {
 	};
 }
 
-Introduction.contextType = ContentThemeContext;
-
 class BodyContent extends React.Component {
 	constructor ( props ) {
 		super( props );
 
 		this.state = {
-			theme:
-				this.props.theme === Themes.dark
-					? contentsTheme.light
-					: contentsTheme.dark
+			theme: this.props.theme 
 		};
-
 	}
 
 	render () {
 		return (
 			<>
 				<ContentThemeContext.Provider value={ this.state.theme }>
-					<Introduction theme={ this.state.theme } />
+					<Introduction style={ this.state.theme } />
 				</ContentThemeContext.Provider>
 			</>
 		);
