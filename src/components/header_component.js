@@ -1,5 +1,6 @@
 import App from '../App'
-import logo from '../assets/img/logo.svg';
+import logo_bco from '../assets/img/logo_bco.png';
+import logo_ngo from '../assets/img/logo_ngo.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { library } from '@fortawesome/fontawesome-svg-core';
 import { fas } from '@fortawesome/free-solid-svg-icons';
@@ -27,20 +28,20 @@ class Header extends React.Component {
 	}
 	render () {
 		const header = (
-			<header id='app-header'>
-
+			<header id='app-header' style={ { backgroundColor: this.state.theme } }>
 				<aside id='header-logo-aside'>
-					<img
-						src={ logo }
-						id='app-logo'
-						alt='Vetrodilusso logo' />
+					{
+						this.state.theme === Themes.dark
+							? <img src={ logo_bco } id='app-logo' alt='Vetrodilusso logo' />
+							: <img src={ logo_ngo } id='app-logo' alt='Vetrodilusso logo' />
+					}
 					Vetrodilusso
 				</aside>
 
 				<aside id='header-btn-aside'>
 					<nav id='btn-aside-nav'>
 						<label id='label-search'>
-							<FontAwesomeIcon icon='' />
+							<FontAwesomeIcon icon='magnifying-glass' />
 							<input
 								type='text'
 								placeholder=' "Search" '
@@ -57,17 +58,18 @@ class Header extends React.Component {
 								}
 							</ThemeButton>
 						</ThemeContext.Provider>
-
 					</nav>
 				</aside>
 			</header>
 		);
 
 		return (
-			<App
-				header={ header }
-				theme={ this.state.theme }
-			/>
+			<ThemeContext.Provider value={ this.state.theme }>
+				<App
+					header={ header }
+					theme={ this.state.theme }
+				/>
+			</ThemeContext.Provider>
 		);
 	};
 }

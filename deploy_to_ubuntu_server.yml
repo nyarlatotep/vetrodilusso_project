@@ -41,7 +41,7 @@ steps:
         echo `npm install`
         echo 'Wait.. This may take several minutes...'
 
-    if [[ $(`npm run start`) -eq "0" ]]; then
+    if [[ $(`npm run start &`) -eq "0" ]]; then
         echo 'Succes!. The app was compiled. No further errors...'
         echo
         echo 'Performing the next step.. please wait a little bit...'
