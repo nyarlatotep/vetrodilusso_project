@@ -1,6 +1,6 @@
 import './assets/css/App.css';
 import BodyContent from './components/home_component'
-import { Themes } from './assets/scripts/themes'
+import { Themes, ThemeContext } from './assets/scripts/themes'
 
 function App ( props ) {
 	const elemnt = document.querySelector( 'body' );
@@ -21,7 +21,9 @@ function App ( props ) {
 				{ props.header }
 			</div>
 
-			<BodyContent theme={ props.theme } />
+			<ThemeContext.Provider value={ props.theme.content }>
+				<BodyContent theme={ props.theme } />
+			</ThemeContext.Provider>
 		</>
 	);
 }
