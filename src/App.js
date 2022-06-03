@@ -2,10 +2,7 @@ import './assets/css/App.css';
 
 function App ( props ) {
 	return (
-		<div
-			className="App"
-			style={ props.theme }
-		>
+		<div style={ props.theme }>
 			{ props.header }
 		</div>
 	);

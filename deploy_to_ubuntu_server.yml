@@ -12,20 +12,26 @@ steps:
     TRGT="/home/$USER"
     APP="$TRGT/vetrodilusso"
 
+        echo 'Starting with the deployment process, '
+        echo 'doing the initial steps... wait..'
+
     if [[ -d $APP && -e $APP ]]; then
+        echo 'Info:The $APP dir exists... This will be removed'
         rm -R $APP
+        echo 'Done!. $APP directory was removed successful'
+        echo
     fi
 
     if [[ -e $TRGT && -w $TRGT ]]; then
-        echo 'Starting with the deployment process, '
+        echo 'Info:The app dir will be moved from $CURR to $APP'
         mv $CURR $APP 
-        echo 'doing the first steps... wait..'
+        echo 'Info:The app dir was moved from $CURR to $APP'
         cd $APP
         echo
       else
-        echo 'Starting with the deployment process,'
-        echo 'doing the first steps... wait..'
+        echo 'Info:The app dir will be copied from $CURR to $APP'
         cp -u -r $CURR $APP 
+        echo 'Info:The app dir was copied from $CURR to $APP'
         cd $APP
         echo
     fi
@@ -36,20 +42,19 @@ steps:
         cd $APP 
     fi
 
-        echo 'Success!. the first step finished with any issue... Performing the next step...'
+        echo 'Success!. the last step finished with any issue... Performing the next step...'
+        echo
         echo 'Starting compilation for development...'
-        echo `npm install`
         echo 'Wait.. This may take several minutes...'
 
-    if [[ $(`npm run start &`) -eq "0" ]]; then
-        echo 'Succes!. The app was compiled. No further errors...'
+    if [[ $(`npm install`) -eq "0" ]]; then
+        echo 'Done!. The app was compiled. No further errors...'
         echo
-        echo 'Performing the next step.. please wait a little bit...'
-        echo 'Done!. finishing the deployment. '
-        echo 'This Webapp can be found in "https://$(hostname):3000" '
+        echo 'Info:. finishing the deployment. '
+        echo 'This Webapp can be found in "http://$(hostname):3000" '
         exit 0
       else
-        echo 'Oh! something is getting problems.. Please inspect the logs'
+        echo 'Error:. Oh! something is getting problems.. Please inspect the logs'
         echo 'and your project settings to find the issue(s) and try again';
         exit 1
     fi
