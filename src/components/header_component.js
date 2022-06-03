@@ -17,13 +17,24 @@ class Header extends React.Component {
 		};
 
 		this.toogle_theme = () => {
-			this.setState( state => ( {
-				theme:
-					state.theme === Themes.dark
-						? Themes.light.bodyTheme && Themes.light.content
-						: Themes.dark.bodyTheme && Themes.dark.content,
-			} ) );
-		};
+			let theme;
+			this.setState( state => {
+
+				if ( state.theme === Themes.dark )
+					theme = Themes.light;
+				else if ( state.theme === Themes.dark.bodyTheme )
+					theme = Themes.light;
+
+				if ( state.theme === Themes.light )
+					theme = Themes.dark;
+				else if ( state.theme === Themes.light.bodyTheme )
+					theme = Themes.dark;
+
+				return ( {
+					theme: theme
+				} )
+			} )
+		}
 
 	}
 	render () {
