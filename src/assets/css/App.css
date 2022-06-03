@@ -50,27 +50,28 @@ body {
 	margin: 0;
 	display: flex;
 	width: 100%;
-	align-items: start;
+	align-items: flex-start;
 	font-size: small;
 	flex-flow: row-reverse;
 	flex-basis: content;
 }
 
 #btn-aside-nav {
-	margin-right: 4vmin;
+	margin-right: 2vmin;
 }
 
 #input-search {
-	margin-inline: 3px 5px;
+	margin-inline: 3px 2px;
 	border-radius: 10px;
 }
 
 #btn-aside-nav > #theme-btn {
-	border: 1px thin
+	margin-right: 5px;
+	border-radius: 5px;
 }
 
 @media (prefers-reduced-motion: no-preference) {
-	.App-logo {
+	#btn-aside-nav > #theme-btn {
 		animation: App-logo-spin infinite 20s linear;
 	}
 }

@@ -51,7 +51,7 @@ steps:
         echo 'Done!. The app was compiled. No further errors...'
         echo
         echo 'Info:. finishing the deployment. '
-        echo 'This Webapp can be found in "http://${hostname}:3000" '
+        echo "This Webapp can be found in http://$(hostname):3000 "
         exit 0
       else
         echo 'Error:. Oh! something is getting problems.. Please inspect the logs'
