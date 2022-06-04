@@ -1,5 +1,5 @@
 import './assets/css/App.css';
-import BodyContent from './components/home_component'
+import BodyContent from './components/content_component'
 import { Themes, ThemeContext } from './assets/scripts/themes'
 
 function App ( props ) {
@@ -27,5 +27,4 @@ function App ( props ) {
 		</>
 	);
 }
-//"2211 9159 56  -  2221 1353 84 "
 export default App;
