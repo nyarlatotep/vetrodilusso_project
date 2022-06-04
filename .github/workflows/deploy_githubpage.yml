@@ -22,7 +22,7 @@ jobs:
     env:
       user: ${{ github.actor }}
       email: danielcrespo@cresalex.com
-      HEAD: HEAD:gh-pages
+      HEAD: HEAD:pages
       NODE_ENV: production
       SECRET: ${{ secrets.GITHUB_TOKEN }}
 
