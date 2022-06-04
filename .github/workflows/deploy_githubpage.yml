@@ -16,7 +16,7 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        node_version: ["lts-16"]
+        node_version: ["16"]
     env:
       user: github-actions
       email: github-actions@github.com
