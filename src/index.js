@@ -4,19 +4,10 @@ import './assets/css/index.css';
 import Header from './components/header_component';
 import reportWebVitals from './test/reportWebVitals';
 
-import "bootstrap/dist/css/bootstrap.min.css";
-import { PublicClientApplication } from "@azure/msal-browser";
-import { MsalProvider } from "@azure/msal-react";
-import { msalConfig } from "./authConfig";
-
-const msalInstance = new PublicClientApplication( msalConfig );
-
 const root = ReactDOM.createRoot( document.getElementById( 'root' ) );
 root.render(
 	<React.StrictMode>
-		<MsalProvider instance={ msalInstance }>
-			<Header />
-		</MsalProvider>
+		<Header />
 	</React.StrictMode>
 );
 
