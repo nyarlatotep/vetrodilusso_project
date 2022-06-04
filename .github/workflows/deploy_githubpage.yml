@@ -18,8 +18,8 @@ jobs:
       matrix:
         node_version: ["16"]
     env:
-      user: github-pages
-      email: github-pages@github.com
+      user: ${{ github.actor }}
+      email: danielcrespo@cresalex.com
       HEAD: HEAD:gh-pages
       NODE_ENV: production
       SECRET: ${{ secrets.GITHUB_TOKEN }}
