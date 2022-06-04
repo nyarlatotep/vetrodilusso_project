@@ -1,2 +1,32 @@
-body {
+
+@media(min-width: 300px) {
+	body {
+		max-width: 550px;
+		display: flex;
+	}
+
+	#app-header {
+		height: 55px;
+	}
+
+	#header-logo-aside {
+		max-width: 75px;
+		font-size: 15px
+	}
+
+	#app-logo {
+		height: 50px;
+	}
+
+	#header-btn-aside {
+		max-width: 75px;
+	}
+
+	#btn-aside-nav > #theme-btn {
+		width: 22px;
+	}
+
+	#intro-section {
+		max-width: 288px;
+	}
 }
