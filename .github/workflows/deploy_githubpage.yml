@@ -1,0 +1,55 @@
+name: Deploy to GitHub Pages
+
+on:
+  push:
+    branches: [ "pages" ]
+  pull_request:
+    branches: [ "pages" ]
+  schedule:
+    - cron:  "0 0 * 1-12 1,3,5"
+
+  workflow_dispatch:
+
+jobs:
+  react-build:
+    name: Build and Deploy React App
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        node_version: ["lts-16"]
+    env:
+      user: github-actions
+      email: github-actions@github.com
+      HEAD: HEAD:gh-pages
+      NODE_ENV: production
+      SECRET: ${{ secrets.GITHUB_TOKEN }}
+
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v1
+        with:
+          node-version: ${{ matrix.node_version }}
+
+      - name: Install and build app for production
+        id: BuildApp
+        run: |
+          npm install
+          npm run build
+        shell: bash
+        env:
+          NODE_ENV: ${{ env.NODE_ENV }}
+          
+      - name: Deploy to GitHub Pages
+        if: ${{ success() }}
+        run: |
+          git config user.name ${{ env.user }}
+          git config user.email ${{ env.email }}
+          git --work-tree build add --all
+          git commit -m "Deploy app to GitHub Pages"
+          git push origin ${{ env.HEAD }} --force
+          echo "Success! The app was deployed to GitHub Pages"
+        shell: bash
+        env: 
+          GITHUB_TOKEN: ${{ env.SECRET }}
