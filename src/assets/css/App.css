@@ -35,7 +35,6 @@
 	display: inline;
 	margin-block: inherit;
 	margin-inline: 0;
-	padding-top: 10px;
 	position: absolute;
 	text-indent: inherit;
 	width: inherit;
@@ -64,12 +63,7 @@
 	font-size: small;
 	margin: 0;
 	position: fixed;
-	margin-inline: inherit;
 	width: 100%;
-}
-
-#btn-aside-nav {
-	margin-right: inherit;
 }
 
 #input-search {
@@ -78,7 +72,6 @@
 	box-shadow: 1px 1px 0 #646464;
 	cursor: pointer;
 	line-height: 1;
-	margin-block: 40px 0;
 	margin-inline: 3px 10px;
 	text-transform: capitalize;
 	width: inherit;

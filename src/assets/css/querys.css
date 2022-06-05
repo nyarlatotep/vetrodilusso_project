@@ -11,7 +11,7 @@
 	#app-header {
 		height: 45px;
 	}
-	
+
 	#vetro-p {
 		padding-top: 15px;
 	}
@@ -22,12 +22,21 @@
 		width: 20vmax;
 	}
 
+	#header-btn-aside {
+		margin-inline: 7vmax -7vmax;
+	}
+
 	#label-search {
 		width: 35%;
 		font-size: 10px;
 	}
 
-	#input-search{
+	#btn-aside-nav {
+		margin-block: -1vmin 0;
+		margin-inline: 0 -15vmax;
+	}
+
+	#input-search {
 		margin-block: 25px 0;
 		height: 13px;
 	}
@@ -56,9 +65,13 @@
 		max-width: 850px;
 	}
 
+	#app-header {
+		height: 50px;
+	}
+
 	#header-logo-aside {
 		font-size: 15px;
-		height: 50px;
+		height: 45px;
 		width: 25vmax;
 	}
 
@@ -68,12 +81,21 @@
 		width: 22px;
 	}
 
+	#btn-aside-nav {
+		margin-block: -2vmin 0;
+		margin-inline: 0 -12vmax;
+	}
+
 	#label-search {
 		width: 45%
 	}
 
 	#app-logo {
 		height: 50px;
+	}
+
+	#btn-aside-nav > #theme-btn {
+		margin-left: 15vmin;
 	}
 }
 
@@ -98,6 +120,11 @@
 
 	#header-btn-aside {
 		margin-inline: 5vmin -5vmin;
+	}
+
+	#btn-aside-nav {
+		margin-block: -1vmin 0;
+		margin-inline: 0 -8vmax;
 	}
 
 	#label-search {
@@ -137,6 +164,11 @@
 		margin-inline: 4vmin -4vmin;
 	}
 
+	#btn-aside-nav {
+		margin-block: -1vmin 0;
+		margin-inline: 0 -5vmax;
+	}
+
 	#label-search {
 		width: 55%
 	}
@@ -148,6 +180,7 @@
 	#btn-aside-nav > #theme-btn {
 		height: 27px;
 		width: 27px;
+		margin-block -1vmin 0;
 	}
 }
 
