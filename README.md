@@ -5,23 +5,27 @@
 This repository contains a custom project for the company __Vetro Di Lusso__; 
 such project is the public website of the business, where can be found:
 
-- _Basic contact information :pager:_
-- _Product catalogs :books:_
-- _Optional forms to request product quotes :receipt:_
-- _Shopping cart :shopping_cart:_
+- [x] _Basic contact information :pager:_
+- [x] _Product catalogs :books:_
+- [x] _Optional forms to request product quotes :receipt:_
+- [x] _Shopping cart :shopping_cart:_
 
 and other interactive features.
 
->
-> __*NOTE:* :exclamation:__
->
-> _Currently, the project is under development, not all the features_
-> _mentioned above are available yet, but they will be added as soon as possible,_
-> *and other features not mentioned yet will be added as well. :heavy_plus_sign:*
->
->
+<br/>
 
 ---
+  >
+  > __*`NOTE:`*__:exclamation:
+  >> 
+  >> ```
+  >>   Currently, the project is under development, not all the features mentioned above are available yet, 
+  >>   but they will be added as soon as possible, and other features not mentioned yet will be added as well.
+  >> ```
+  >
+---
+
+<br/>
 
 ## :label: Information
 
@@ -42,7 +46,7 @@ You can find more ways to contact ___Vetro___, on its [website](https://vetro.cr
 
 ## :office: Company Details
 
-__Name:__ __Vetro Di Lusso__ :speech_ballon:
+__Name:__ __Vetro Di Lusso__ :speech_balloon:
 
 __Market:__ __Distributor of quality glass and stainless steel__ :window:
 
