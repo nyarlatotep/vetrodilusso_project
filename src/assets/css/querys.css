@@ -30,3 +30,90 @@
 		max-width: 288px;
 	}
 }
+
+@media(min-width: 551px) {
+	body {
+		max-width: 850px;
+		min-width: 1px;
+		display: flex;
+	}
+
+	#app-header {
+		height: 60px;
+		max-width: 850px;
+	}
+
+	#header-logo-aside {
+		font-size: 17px
+	}
+
+	#app-logo {
+		height: 55px;
+	}
+
+	#btn-aside-nav > #theme-btn {
+		width: 25px;
+	}
+
+	#intro-section {
+		max-width: 525px;
+	}
+}
+
+@media(min-width: 851px) {
+	body {
+		max-width: 1150px;
+		min-width: 1px;
+		display: flex;
+	}
+
+	#app-header {
+		height: 65px;
+		max-width: 1150px;
+	}
+
+	#header-logo-aside {
+		font-size: 19px
+	}
+
+	#app-logo {
+		height: 60px;
+	}
+
+	#btn-aside-nav > #theme-btn {
+		width: 28px;
+	}
+
+	#intro-section {
+		max-width: 1120px;
+	}
+}
+
+@media(min-width: 1151px) {
+	body {
+		max-width: 1500px;
+		min-width: 1px;
+		display: flex;
+	}
+
+	#app-header {
+		height: 65px;
+		max-width: 1500px;
+	}
+
+	#header-logo-aside {
+		font-size: 20px
+	}
+
+	#app-logo {
+		height: 60px;
+	}
+
+	#btn-aside-nav > #theme-btn {
+		width: 30px;
+	}
+
+	#intro-section {
+		max-width: 1460px;
+	}
+}
