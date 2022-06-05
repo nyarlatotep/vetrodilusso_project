@@ -22,9 +22,6 @@
 		width: 20vmax;
 	}
 
-	#header-btn-aside {
-		margin-inline: 7vmax -7vmax;
-	}
 
 	#label-search {
 		width: 35%;
@@ -34,7 +31,7 @@
 
 	#btn-aside-nav {
 		margin-block: -1vmin 0;
-		margin-inline: 0 -14vmax;
+		margin-inline: 0 -16vmin;
 	}
 
 	#input-search {
@@ -49,7 +46,7 @@
 	#btn-aside-nav > #theme-btn {
 		font-size: 80%;
 		height: 18px;
-		margin-inline: 10vmax -10vmax;
+		margin-inline: 11vmin 0;
 		padding-block: 3px 2px;
 		padding-inline: 2px 1px;
 		width: 18px;
@@ -78,13 +75,12 @@
 
 	#header-btn-aside {
 		height: 22px;
-		margin-inline: 7vmin -7vmin;
 		width: 22px;
 	}
 
 	#btn-aside-nav {
 		margin-block: -1vmin 0;
-		margin-inline: 0 -12vmax;
+		margin-inline: 0 -14vmin;
 	}
 
 	#label-search {
@@ -97,7 +93,7 @@
 	}
 
 	#btn-aside-nav > #theme-btn {
-		margin-inline: 13vmax;
+		margin-inline: 15vmax;
 	}
 }
 
@@ -129,7 +125,7 @@
 
 	#btn-aside-nav {
 		margin-block: -1vmin 0;
-		margin-inline: 0 -12vmax;
+		margin-inline: 0 -12vmin;
 	}
 
 	#label-search {
@@ -142,7 +138,7 @@
 	}
 
 	#btn-aside-nav > #theme-btn {
-		margin-inline: 13vmax 0;
+		margin-inline: 12vmin 0;
 	}
 }
 
@@ -171,7 +167,7 @@
 
 	#btn-aside-nav {
 		margin-block: -1vmin 0;
-		margin-inline: 0 -8vmax;
+		margin-inline: 0 -10vmin;
 	}
 
 	#label-search {
@@ -183,7 +179,7 @@
 	}
 
 	#btn-aside-nav > #theme-btn {
-		margin-left: 15vmin;
+		margin-inline: 14vmin 0;
 	}
 }
 
@@ -207,13 +203,9 @@
 		width: 25vmax;
 	}
 
-	#header-btn-aside {
-		margin-inline: 4vmin -4vmin;
-	}
-
 	#btn-aside-nav {
 		margin-block: -1vmin 0;
-		margin-inline: 0 -4vmax;
+		margin-inline: 0 -8vmin;
 	}
 
 	#label-search {
@@ -225,9 +217,10 @@
 	}
 
 	#btn-aside-nav > #theme-btn {
-		height: 27px;
-		width: 27px;
-		margin-block: -1vmin 0;
+		height: 24px;
+		width: 24px;
+		margin-inline: 16vmin 0;
+		margin-block: -2vmin 0;
 	}
 }
 
@@ -246,28 +239,30 @@
 	}
 
 	#header-logo-aside {
-		font-size: 15px;
+		font-size: 26px;
 		height: 62px;
-		margin-block: 0px -13px;
 		width: 25vmax;
 	}
 
 	#label-search {
-		width: 35%
+		width: 60%
 	}
 
 	#app-logo {
 		height: 60px;
 	}
 
-	#btn-aside-nav > #theme-btn {
-		width: 27px;
-		font-size: 90%;
-		padding-inline: 5px;
-		height: 27px;
-		margin-left: 15vmin;
-		padding-block: 0px;
+	#btn-aside-nav {
+		margin-block: -1vmin 0;
+		margin-inline: 0 -6vmin;
 	}
+
+		#btn-aside-nav > #theme-btn {
+			width: 24px;
+			height: 24px;
+			margin-inline: 19vmin 0;
+			margin-block: -2vmin 0;
+		}
 }
 
 @media(min-width: 2001px) {
@@ -285,26 +280,28 @@
 	}
 
 	#header-logo-aside {
-		font-size: 15px;
+		font-size: 30px;
 		height: 62px;
-		margin-block: 0px -13px;
 		width: 25vmax;
 	}
 
 	#label-search {
-		width: 35%
+		width: 65%
 	}
 
 	#app-logo {
 		height: 60px;
 	}
 
-	#btn-aside-nav > #theme-btn {
-		width: 27px;
-		font-size: 90%;
-		padding-inline: 5px;
-		height: 27px;
-		margin-left: 15vmin;
-		padding-block: 0px;
+	#btn-aside-nav {
+		margin-block: -1vmin 0;
+		margin-inline: 0 -4vmin;
 	}
+
+		#btn-aside-nav > #theme-btn {
+			width: 25px;
+			height: 25px;
+			margin-inline: 21vmin 0;
+			margin-block: -2vmin 0;
+		}
 }
