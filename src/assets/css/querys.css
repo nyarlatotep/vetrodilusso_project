@@ -31,7 +31,7 @@
 
 	#btn-aside-nav {
 		margin-block: -1vmin 0;
-		margin-inline: 0 -16vmin;
+		margin-inline: 0 -18vmin;
 	}
 
 	#input-search {
@@ -46,7 +46,7 @@
 	#btn-aside-nav > #theme-btn {
 		font-size: 80%;
 		height: 18px;
-		margin-inline: 11vmin 0;
+		margin-inline: 14vmin 0;
 		padding-block: 3px 2px;
 		padding-inline: 2px 1px;
 		width: 18px;
@@ -80,7 +80,7 @@
 
 	#btn-aside-nav {
 		margin-block: -1vmin 0;
-		margin-inline: 0 -14vmin;
+		margin-inline: 0 -12vmin;
 	}
 
 	#label-search {
@@ -93,7 +93,7 @@
 	}
 
 	#btn-aside-nav > #theme-btn {
-		margin-inline: 15vmax;
+		margin-inline: 12vmin;
 	}
 }
 
@@ -185,12 +185,12 @@
 
 @media(min-width: 1151px) {
 	body {
-		max-width: 1450px;
-		min-width: 1150px;
+		max-width: 1400px;
+		min-width: 1151px;
 	}
 
 	#root {
-		max-width: 1450px;
+		max-width: 1400px;
 	}
 
 	#app-header {
@@ -219,15 +219,19 @@
 	#btn-aside-nav > #theme-btn {
 		height: 24px;
 		width: 24px;
-		margin-inline: 16vmin 0;
+		margin-inline: 12vmin 0;
 		margin-block: -2vmin 0;
+	}
+
+	#intro-section {
+		max-width: 700px;
 	}
 }
 
-@media(min-width: 1451px) {
+@media(min-width: 1401px) {
 	body {
 		max-width: 2000px;
-		min-width: 1450px;
+		min-width: 1401px;
 	}
 
 	#root {

@@ -1,7 +1,7 @@
 @import url(home_component.css);
 @import url(querys.css);
 
-* ::after ::before {
+*, ::after, ::before {
 	box-sizing: border-box;
 	zoom: 1;
 }
