@@ -1,144 +1,233 @@
-@media(min-width: 100px) {
-	body {
-		max-width: 299px;
-	}
-
-	#app-header {
-		height: 55px;
-		width: 100%;
-	}
-
-	#header-logo-aside {
-		font-size: 15px
-	}
-
-	#app-logo {
-		height: 50px;
-	}
-
-	#header-btn-aside {
-		width: 100%;
-	}
-
-	#btn-aside-nav > #theme-btn {
-		width: 22px;
-	}
-
-	#intro-section {
-		width: 80%;
-	}
-}
-
 @media(min-width: 300px) {
 	body {
+		max-width: 550px;
+		min-width: 300px;
+	}
+
+	#root {
 		max-width: 550px;
 	}
 
 	#app-header {
 		height: 55px;
-		width: 100%;
 	}
 
 	#header-logo-aside {
-		font-size: 15px
+		font-size: 15px;
+		height: 50px;
+		margin-block: 0px -13px;
+		width: 25vmax;
+	}
+
+	#label-search {
+		width: 35%
 	}
 
 	#app-logo {
 		height: 50px;
 	}
 
-	#header-btn-aside {
-		width: 100%;
-	}
-
 	#btn-aside-nav > #theme-btn {
 		width: 22px;
-	}
-
-	#intro-section {
-		width: 80%;
+		font-size: 90%;
+		padding-inline: 5px;
+		height: 22px;
+		margin-left: 15vmin;
+		padding-block: 0px;
 	}
 }
 
 @media(min-width: 551px) {
 	body {
 		max-width: 850px;
+		min-width: 551px;
+	}
+
+	#root {
+		max-width: 850px;
 	}
 
 	#app-header {
-		height: 60px;
-		width: 100%;
-	}
-
-	#app-logo {
 		height: 55px;
 	}
 
-	#btn-aside-nav > #theme-btn {
-		width: 25px;
+	#header-logo-aside {
+		font-size: 15px;
+		height: 50px;
+		margin-block: 0px -13px;
+		width: 25vmax;
 	}
 
-	#intro-section {
-		width: 80%;
+	#label-search {
+		width: 35%
+	}
+
+	#app-logo {
+		height: 50px;
+	}
+
+	#btn-aside-nav > #theme-btn {
+		width: 22px;
+		font-size: 90%;
+		padding-inline: 5px;
+		height: 22px;
+		margin-left: 15vmin;
+		padding-block: 0px;
 	}
 }
 
 @media(min-width: 851px) {
 	body {
 		max-width: 1150px;
+		min-width: 851px;
+	}
+
+	#root {
+		max-width: 1150px;
 	}
 
 	#app-header {
-		width: 100%;
+		height: 55px;
+	}
+
+	#header-logo-aside {
+		font-size: 15px;
+		height: 50px;
+		margin-block: 0px -13px;
+		width: 25vmax;
+	}
+
+	#label-search {
+		width: 35%
+	}
+
+	#app-logo {
+		height: 50px;
 	}
 
 	#btn-aside-nav > #theme-btn {
-		width: 28px;
-	}
-
-	#intro-section {
-		width: 80%;
+		width: 22px;
+		font-size: 90%;
+		padding-inline: 5px;
+		height: 22px;
+		margin-left: 15vmin;
+		padding-block: 0px;
 	}
 }
 
 @media(min-width: 1151px) {
 	body {
-		max-width: 1500px;
+		max-width: 1450px;
+		min-width: 1150px;
+	}
+
+	#root {
+		max-width: 1450px;
 	}
 
 	#app-header {
-		width: 100%;
+		height: 65px;
 	}
 
-	#intro-section {
-		width: 80%;
+	#header-logo-aside {
+		font-size: 15px;
+		height: 62px;
+		margin-block: 0px -13px;
+		width: 25vmax;
+	}
+
+	#label-search {
+		width: 35%
+	}
+
+	#app-logo {
+		height: 60px;
+	}
+
+	#btn-aside-nav > #theme-btn {
+		width: 27px;
+		font-size: 90%;
+		padding-inline: 5px;
+		height: 27px;
+		margin-left: 15vmin;
+		padding-block: 0px;
 	}
 }
 
-@media(min-width: 1501px) {
+@media(min-width: 1451px) {
 	body {
+		max-width: 2000px;
+		min-width: 1450px;
+	}
+
+	#root {
+		max-width: 2000px;
+	}
+
+	#app-header {
+		height: 65px;
+	}
+
+	#header-logo-aside {
+		font-size: 15px;
+		height: 62px;
+		margin-block: 0px -13px;
+		width: 25vmax;
+	}
+
+	#label-search {
+		width: 35%
+	}
+
+	#app-logo {
+		height: 60px;
+	}
+
+	#btn-aside-nav > #theme-btn {
+		width: 27px;
+		font-size: 90%;
+		padding-inline: 5px;
+		height: 27px;
+		margin-left: 15vmin;
+		padding-block: 0px;
+	}
+}
+
+@media(min-width: 2001px) {
+	body {
+		max-width: 2500px;
+		min-width: 2001px;
+	}
+
+	#root {
 		max-width: 2500px;
 	}
 
 	#app-header {
-		width: 100%;
+		height: 65px;
 	}
 
-	#intro-section {
-		width: 80%;
-	}
-}
-
-@media(min-width: 2501px) {
-	body {
-		max-width: 3000px;
+	#header-logo-aside {
+		font-size: 15px;
+		height: 62px;
+		margin-block: 0px -13px;
+		width: 25vmax;
 	}
 
-	#app-header {
-		width: 100%;
+	#label-search {
+		width: 35%
 	}
 
-	#intro-section {
-		width: 80%;
+	#app-logo {
+		height: 60px;
+	}
+
+	#btn-aside-nav > #theme-btn {
+		width: 27px;
+		font-size: 90%;
+		padding-inline: 5px;
+		height: 27px;
+		margin-left: 15vmin;
+		padding-block: 0px;
 	}
 }
