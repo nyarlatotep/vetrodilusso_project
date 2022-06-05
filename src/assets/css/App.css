@@ -1,11 +1,6 @@
 @import url(home_component.css);
 @import url(querys.css);
 
-body {
-	width: initial;
-	height: 100vmin;
-}
-
 #app-div-container {
 	display: flex;
 	border: 0;

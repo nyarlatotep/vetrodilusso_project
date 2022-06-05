@@ -1,22 +1,14 @@
-
-@media(min-width: 300px) {
+@media(min-width: 100px) {
 	body {
-		max-width: 550px;
-		min-width: 1px;
-		display: flex;
+		max-width: 299px;
 	}
 
 	#app-header {
 		height: 55px;
-		max-width: 550px;
-		flex-direction: row-reverse;
-		flex-basis: 60%;
-		flex-flow: row-reverse wrap-reverse;
-		flex: 0 3;
+		width: 100%;
 	}
 
 	#header-logo-aside {
-		max-width: 150px;
 		font-size: 15px
 	}
 
@@ -25,7 +17,7 @@
 	}
 
 	#header-btn-aside {
-		max-width: 150px;
+		width: 100%;
 	}
 
 	#btn-aside-nav > #theme-btn {
@@ -33,24 +25,49 @@
 	}
 
 	#intro-section {
-		max-width: 288px;
+		width: 80%;
+	}
+}
+
+@media(min-width: 300px) {
+	body {
+		max-width: 550px;
+	}
+
+	#app-header {
+		height: 55px;
+		width: 100%;
+	}
+
+	#header-logo-aside {
+		font-size: 15px
+	}
+
+	#app-logo {
+		height: 50px;
+	}
+
+	#header-btn-aside {
+		width: 100%;
+	}
+
+	#btn-aside-nav > #theme-btn {
+		width: 22px;
+	}
+
+	#intro-section {
+		width: 80%;
 	}
 }
 
 @media(min-width: 551px) {
 	body {
 		max-width: 850px;
-		min-width: 1px;
-		display: flex;
 	}
 
 	#app-header {
 		height: 60px;
-		max-width: 850px;
-		flex-direction: row-reverse;
-		flex-basis: 40%;
-		flex-flow: row-reverse wrap-reverse;
-		flex: 0 1;
+		width: 100%;
 	}
 
 	#app-logo {
@@ -62,64 +79,52 @@
 	}
 
 	#intro-section {
-		max-width: 525px;
+		width: 80%;
 	}
 }
 
 @media(min-width: 851px) {
 	body {
 		max-width: 1150px;
-		min-width: 1px;
 	}
 
 	#app-header {
-		max-width: 1150px;
+		width: 100%;
 	}
-
 
 	#btn-aside-nav > #theme-btn {
 		width: 28px;
 	}
 
 	#intro-section {
-		max-width: 1120px;
+		width: 80%;
 	}
 }
 
 @media(min-width: 1151px) {
 	body {
 		max-width: 1500px;
-		min-width: 1px;
 	}
 
 	#app-header {
-		max-width: 1500px;
-	}
-
-	#btn-aside-nav > #theme-btn {
-		width: 30px;
+		width: 100%;
 	}
 
 	#intro-section {
-		max-width: 1460px;
+		width: 100%;
 	}
 }
 
 @media(min-width: 1501px) {
 	body {
-		max-width: 2000px;
-		min-width: 1px;
+		max-width: 2500px;
 	}
 
 	#app-header {
-		max-width: 2000px;
-	}
-
-	#btn-aside-nav > #theme-btn {
-		width: 30px;
+		width: 100%;
 	}
 
 	#intro-section {
-		max-width: 1950px;
+		width: 80%;
 	}
 }
