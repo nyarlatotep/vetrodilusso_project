@@ -2,15 +2,21 @@
 @media(min-width: 300px) {
 	body {
 		max-width: 550px;
+		min-width: 1px;
 		display: flex;
 	}
 
 	#app-header {
 		height: 55px;
+		max-width: 550px;
+		flex-direction: row-reverse;
+		flex-basis: 60%;
+		flex-flow: row-reverse wrap-reverse;
+		flex: 0 3;
 	}
 
 	#header-logo-aside {
-		max-width: 75px;
+		max-width: 150px;
 		font-size: 15px
 	}
 
@@ -19,7 +25,7 @@
 	}
 
 	#header-btn-aside {
-		max-width: 75px;
+		max-width: 150px;
 	}
 
 	#btn-aside-nav > #theme-btn {
@@ -41,10 +47,10 @@
 	#app-header {
 		height: 60px;
 		max-width: 850px;
-	}
-
-	#header-logo-aside {
-		font-size: 17px
+		flex-direction: row-reverse;
+		flex-basis: 40%;
+		flex-flow: row-reverse wrap-reverse;
+		flex: 0 1;
 	}
 
 	#app-logo {
@@ -64,21 +70,12 @@
 	body {
 		max-width: 1150px;
 		min-width: 1px;
-		display: flex;
 	}
 
 	#app-header {
-		height: 65px;
 		max-width: 1150px;
 	}
 
-	#header-logo-aside {
-		font-size: 19px
-	}
-
-	#app-logo {
-		height: 60px;
-	}
 
 	#btn-aside-nav > #theme-btn {
 		width: 28px;
@@ -93,20 +90,10 @@
 	body {
 		max-width: 1500px;
 		min-width: 1px;
-		display: flex;
 	}
 
 	#app-header {
-		height: 65px;
 		max-width: 1500px;
-	}
-
-	#header-logo-aside {
-		font-size: 20px
-	}
-
-	#app-logo {
-		height: 60px;
 	}
 
 	#btn-aside-nav > #theme-btn {
@@ -115,5 +102,24 @@
 
 	#intro-section {
 		max-width: 1460px;
+	}
+}
+
+@media(min-width: 1501px) {
+	body {
+		max-width: 2000px;
+		min-width: 1px;
+	}
+
+	#app-header {
+		max-width: 2000px;
+	}
+
+	#btn-aside-nav > #theme-btn {
+		width: 30px;
+	}
+
+	#intro-section {
+		max-width: 1950px;
 	}
 }
