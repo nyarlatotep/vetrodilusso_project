@@ -9,31 +9,40 @@
 	}
 
 	#app-header {
-		height: 55px;
+		height: 45px;
+	}
+	
+	#vetro-p {
+		padding-top: 15px;
 	}
 
 	#header-logo-aside {
-		font-size: 15px;
-		height: 50px;
-		margin-block: 0px -13px;
-		width: 25vmax;
+		font-size: 12px;
+		height: 40px;
+		width: 20vmax;
 	}
 
 	#label-search {
-		width: 35%
+		width: 35%;
+		font-size: 10px;
 	}
 
-	#app-logo {
-		height: 50px;
+	#input-search{
+		margin-block: 25px 0;
+		height: 13px;
+	}
+
+	#header-btn-aside {
+		margin-inline: 16vmin -16vmin;
 	}
 
 	#btn-aside-nav > #theme-btn {
-		width: 22px;
-		font-size: 90%;
-		padding-inline: 5px;
-		height: 22px;
-		margin-left: 15vmin;
-		padding-block: 0px;
+		font-size: 80%;
+		height: 18px;
+		margin-left: 22vmin;
+		padding-block: 3px 2px;
+		padding-inline: 2px 1px;
+		width: 18px;
 	}
 }
 
@@ -47,32 +56,24 @@
 		max-width: 850px;
 	}
 
-	#app-header {
-		height: 55px;
-	}
-
 	#header-logo-aside {
 		font-size: 15px;
 		height: 50px;
-		margin-block: 0px -13px;
 		width: 25vmax;
 	}
 
+	#header-btn-aside {
+		height: 22px;
+		margin-inline: 7vmin -7vmin;
+		width: 22px;
+	}
+
 	#label-search {
-		width: 35%
+		width: 45%
 	}
 
 	#app-logo {
 		height: 50px;
-	}
-
-	#btn-aside-nav > #theme-btn {
-		width: 22px;
-		font-size: 90%;
-		padding-inline: 5px;
-		height: 22px;
-		margin-left: 15vmin;
-		padding-block: 0px;
 	}
 }
 
@@ -91,14 +92,16 @@
 	}
 
 	#header-logo-aside {
-		font-size: 15px;
+		font-size: 20px;
 		height: 50px;
-		margin-block: 0px -13px;
-		width: 25vmax;
+	}
+
+	#header-btn-aside {
+		margin-inline: 5vmin -5vmin;
 	}
 
 	#label-search {
-		width: 35%
+		width: 50%
 	}
 
 	#app-logo {
@@ -106,12 +109,7 @@
 	}
 
 	#btn-aside-nav > #theme-btn {
-		width: 22px;
-		font-size: 90%;
-		padding-inline: 5px;
-		height: 22px;
 		margin-left: 15vmin;
-		padding-block: 0px;
 	}
 }
 
@@ -130,14 +128,17 @@
 	}
 
 	#header-logo-aside {
-		font-size: 15px;
+		font-size: 25px;
 		height: 62px;
-		margin-block: 0px -13px;
 		width: 25vmax;
 	}
 
+	#header-btn-aside {
+		margin-inline: 4vmin -4vmin;
+	}
+
 	#label-search {
-		width: 35%
+		width: 55%
 	}
 
 	#app-logo {
@@ -145,12 +146,8 @@
 	}
 
 	#btn-aside-nav > #theme-btn {
-		width: 27px;
-		font-size: 90%;
-		padding-inline: 5px;
 		height: 27px;
-		margin-left: 15vmin;
-		padding-block: 0px;
+		width: 27px;
 	}
 }
 
