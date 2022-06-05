@@ -111,13 +111,27 @@
 	}
 
 	#intro-section {
-		width: 100%;
+		width: 80%;
 	}
 }
 
 @media(min-width: 1501px) {
 	body {
 		max-width: 2500px;
+	}
+
+	#app-header {
+		width: 100%;
+	}
+
+	#intro-section {
+		width: 80%;
+	}
+}
+
+@media(min-width: 2501px) {
+	body {
+		max-width: 3000px;
 	}
 
 	#app-header {

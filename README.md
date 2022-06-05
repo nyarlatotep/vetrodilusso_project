@@ -1,70 +1,46 @@
-# Getting Started with Create React App
+# Vetro Di Lusso Website :globe_with_meridians:
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## :scroll: Description 
 
-## Available Scripts
+This repository contains a custom project for the company __Vetro Di Lusso__; 
+such project is the public website of the business, where can be found:
 
-In the project directory, you can run:
+- _Basic contact information :pager:_
+- _Product catalogs :books:_
+- _Optional forms to request product quotes :receipt:_
+- _Shopping cart :shopping_cart:_
+and other interactive features.
 
-### `npm start`
+>
+> __:grey_exclamation: *NOTE:*__
+>
+>> _Currently, the project is under development, not all the features_
+>> _mentioned above are available yet, but they will be added as soon as possible,_
+>> *and other features not mentioned yet will be added as well. :heavy_plus_sign:*
+>
+>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## :label: Information
 
-### `npm test`
+### About Project:
+This project is written with __React.js@18.1.0__. It's hosted and running on __GitHub pages__.
+For bugs :beetle: or comments :right_anger_bubble:, please create an `[Issue](https://github.com/nyarlatotep/vetrodilusso_project/issues/)`.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### About Company:
+If for any reason you are interested or want to contact ___Vetro___ ( _short name_ ), 
+an email to contact them is shown in the repo description, or below is a quick gesture to send an email :link:.
 
-### `npm run build`
+or... 
+You can find more ways to contact ___Vetro___, on its [website](https://vetro.cresalex.com/) :computer:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+---
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## :office: Company details:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+__Name:__ ___Vetro Di Lusso___ :speech_ballon:
+__Market:__ ___Distributor of quality glass and stainless steel___ :window:
+__Location:__ ___Puebla, México___ :world_map:
+__Email:__ [Customer Support and Info](mailto:vetrodilusso@hotmail.com). :incoming_envelope: 
+__Owner:__ [Nicolás Fernández](mailto:nikolin_@hotmail.com). :man_in_tuxedo:
