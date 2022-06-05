@@ -1,4 +1,4 @@
-# Vetro Di Lusso Website :globe_with_meridians:
+# :globe_with_meridians: Vetro Di Lusso Website :globe_with_meridians:
 
 ## :scroll: Description 
 
@@ -9,14 +9,15 @@ such project is the public website of the business, where can be found:
 - _Product catalogs :books:_
 - _Optional forms to request product quotes :receipt:_
 - _Shopping cart :shopping_cart:_
+
 and other interactive features.
 
 >
-> __:grey_exclamation: *NOTE:*__
+> __*NOTE:* :exclamation:__
 >
->> _Currently, the project is under development, not all the features_
->> _mentioned above are available yet, but they will be added as soon as possible,_
->> *and other features not mentioned yet will be added as well. :heavy_plus_sign:*
+> _Currently, the project is under development, not all the features_
+> _mentioned above are available yet, but they will be added as soon as possible,_
+> *and other features not mentioned yet will be added as well. :heavy_plus_sign:*
 >
 >
 
@@ -26,21 +27,27 @@ and other interactive features.
 
 ### About Project:
 This project is written with __React.js@18.1.0__. It's hosted and running on __GitHub pages__.
-For bugs :beetle: or comments :right_anger_bubble:, please create an `[Issue](https://github.com/nyarlatotep/vetrodilusso_project/issues/)`.
+
+For bugs :beetle: or comments :right_anger_bubble:, please create an [Issue](https://github.com/nyarlatotep/vetrodilusso_project/issues/).
 
 ### About Company:
 If for any reason you are interested or want to contact ___Vetro___ ( _short name_ ), 
 an email to contact them is shown in the repo description, or below is a quick gesture to send an email :link:.
 
 or... 
+
 You can find more ways to contact ___Vetro___, on its [website](https://vetro.cresalex.com/) :computer:
 
 ---
 
-## :office: Company details:
+## :office: Company Details
 
-__Name:__ ___Vetro Di Lusso___ :speech_ballon:
-__Market:__ ___Distributor of quality glass and stainless steel___ :window:
-__Location:__ ___Puebla, México___ :world_map:
+__Name:__ __Vetro Di Lusso__ :speech_ballon:
+
+__Market:__ __Distributor of quality glass and stainless steel__ :window:
+
+__Location:__ __Puebla, México__ :world_map:
+
 __Email:__ [Customer Support and Info](mailto:vetrodilusso@hotmail.com). :incoming_envelope: 
+
 __Owner:__ [Nicolás Fernández](mailto:nikolin_@hotmail.com). :man_in_tuxedo:
