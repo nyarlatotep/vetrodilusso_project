@@ -1,6 +1,11 @@
 @import url(home_component.css);
 @import url(querys.css);
 
+* ::after ::before {
+	box-sizing: border-box;
+	zoom: 1;
+}
+
 #app-div-container {
 	display: flex;
 	border: 0;
