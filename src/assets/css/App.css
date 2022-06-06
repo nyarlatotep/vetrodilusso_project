@@ -51,7 +51,6 @@
 	border-image-slice: 20;
 	border-radius: 10px 9px 9px 10px;
 	box-shadow: 0 0 3px #ffe;
-	height: inherit;
 	image-rendering: auto;
 	margin-right: 1.5vmin;
 	pointer-events: none;

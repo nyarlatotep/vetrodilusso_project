@@ -34,3 +34,6 @@ yarn-error.log*
 *.config
 *lock.json
 *.publishsettings
+
+# Personal Files
+**/services/**/*

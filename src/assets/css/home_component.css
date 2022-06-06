@@ -1,18 +1,18 @@
 ﻿#intro-section {
-  flood-opacity: 5;
-  align-content: center;
-  border: 3px groove rgb(127 127 127);
-  border-radius: 30px;
-  display: flex;
-  flex-flow: row nowrap;
-  float: right;
-  height: inherit;
-  justify-content: center;
-  margin-inline: 0vmin 40vmin;
-  margin-top: 2vmin;
-  min-width: 0;
-  position: relative;
-  overflow-x: overlay;
+	flood-opacity: 5;
+	align-content: center;
+	border: 3px groove rgb(127 127 127);
+	border-radius: 30px;
+	display: flex;
+	flex-flow: row nowrap;
+	float: right;
+	height: 55vmin;
+	justify-content: center;
+	margin-inline: 0vmin 40vmin;
+	margin-top: 2vmin;
+	min-width: 0;
+	position: relative;
+	overflow-x: overlay;
 }
 
 #intro-article {
@@ -24,7 +24,6 @@
 	justify-content: space-around;
 	text-align: center;
 	width: 50%;
-	height: 58vmin;
 	background: rgb(60 110 120 / 40%);
 }
 
@@ -45,15 +44,15 @@
 	display: flow-root;
 	font-size: 110%;
 	font-weight: 200;
-	height: 15vmin;
+	height: 20vmin;
 	letter-spacing: -.1px;
 	line-break: strict;
 	line-height: 1.2;
-	margin-block: .5vh -.3vh;
-	margin-inline: 10vmin;
-	padding-inline: 10px 2px;
+	margin-block: -1vmin 1vmin;
+	margin-inline: -5vmin -5vmin;
+	padding-inline: 10px 0px;
 	text-align: left;
-	text-shadow: 0 0px 1px #222;
+	text-shadow: 0 0 1px #222;
 	width: 100%;
 	word-spacing: .5px;
 }
@@ -67,7 +66,6 @@
 	flex-grow: 3;
 	padding-inline: 2vmin;
 	flex-basis: content;
-	height: 58vmin;
 	background: rgb(46 107 97 / 40%);
 }
 
