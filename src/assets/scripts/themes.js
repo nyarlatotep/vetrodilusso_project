@@ -20,7 +20,7 @@ export const Themes = {
 		},
 		content: {
 			backgroundColor: 'rgba(150 150 150 / 95%)',
-			color: 'rgb(35 35 35)',
+			color: 'rgb(5 5 5)',
 		}
 	}
 }
