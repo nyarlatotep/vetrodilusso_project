@@ -6,6 +6,35 @@
 	zoom: 1;
 }
 
+body {
+	display: flex;
+	flex-flow: row wrap;
+}
+
+	body > * {
+		flex: 1 100%;
+	}
+
+@media all and (min-width: 600px) {
+	#intro-section {
+		flex: 1 auto;
+	}
+}
+
+@media all and (min-width: 800px) {
+	#root {
+		flex: 3 0px
+	}
+
+	#intro-aside {
+		order: 1;
+	}
+
+	#root {
+		order: 2;
+	}
+}
+
 #app-div-container {
 	display: flex;
 	border: 0;

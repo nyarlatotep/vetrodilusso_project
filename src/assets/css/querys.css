@@ -51,6 +51,25 @@
 		padding-inline: 2px 1px;
 		width: 18px;
 	}
+
+	#intro-section{
+		display: flex;
+		height: 100vmin;
+	}
+
+	#intro-section > #intro-article{
+		display: flex;
+		height: 90vmin;
+		flex-flow: row wrap;
+		justify-content: space-around;
+	}
+
+	#intro-ps{
+		width: 100%;
+		height: 70vmin;
+		margin: auto;
+
+	}
 }
 
 @media(min-width: 551px) {

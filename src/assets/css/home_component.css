@@ -1,20 +1,24 @@
 ﻿#intro-section {
-	flood-opacity: 5;
-	align-content: center;
 	border: 3px groove rgb(127 127 127);
 	border-radius: 30px;
 	display: flex;
-	flex-flow: row nowrap;
-	float: right;
-	height: 55vmin;
-	justify-content: center;
-	margin-inline: 0vmin 40vmin;
+	flex-flow: row wrap;
+	justify-content: flex-end;
 	margin-top: 2vmin;
-	min-width: 0;
-	position: relative;
 	overflow-x: overlay;
 }
 
+@media all and (max-width: 800px){
+	#intro-section{
+		justify-content: space-around;
+	}
+}
+
+@media all and (max-width: 500px){
+	#intro-section{
+		flex-direction: column;
+	}
+}
 #intro-article {
 	align-items: center;
 	cursor: default;
