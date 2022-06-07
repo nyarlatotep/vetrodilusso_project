@@ -15,25 +15,14 @@ body {
 		flex: 1 100%;
 	}
 
-@media all and (min-width: 600px) {
-	#intro-section {
-		flex: 1 auto;
-	}
+#intro-aside {
+	order: 1;
 }
 
-@media all and (min-width: 800px) {
-	#root {
-		flex: 3 0px
-	}
-
-	#intro-aside {
-		order: 1;
-	}
-
-	#root {
-		order: 2;
-	}
+#root {
+	order: 2;
 }
+
 
 #app-div-container {
 	display: flex;
@@ -45,7 +34,9 @@ body {
 	border: 2px solid #999;
 	border-top: 0;
 	display: flex;
-	margin: 0;
+	flex-flow: row;
+	height: 65px;
+	justify-content: space-between;
 	padding: 5px;
 	top: .5px;
 	width: 100%;
@@ -53,26 +44,27 @@ body {
 
 #header-logo-aside {
 	align-content: center;
-	border: 1px solid #787878;
+	border: 2px solid rgb(120 120 120);
 	border-radius: 10px 5px 5px 10px;
 	display: inline;
-	flex: 1 1;
-	float: left;
+	font-size: 12px;
+	height: 55px;
+	left: 6px;
 	margin: 0;
-	padding-block: 2px 1px;
-	padding-left: 5px;
+	order: 1;
+	padding-left: 2px;
+	padding-block: 2px;
 	position: fixed;
+	width: 140px;
 }
 
 #vetro-p {
 	border: 0;
 	display: inline;
 	margin-block: inherit;
-	margin-inline: 0;
 	position: absolute;
-	text-indent: inherit;
-	width: inherit;
 	word-spacing: -2px;
+	padding-top: 15px;
 }
 
 #app-logo {
@@ -81,43 +73,67 @@ body {
 	border-radius: 10px 9px 9px 10px;
 	box-shadow: 0 0 3px #ffe;
 	image-rendering: auto;
-	margin-right: 1.5vmin;
+	margin-right: 1vmin;
 	pointer-events: none;
-	-webkit-transform-origin: top;
 	transform-origin: top;
+	height: 45px;
+	padding-block: .5px;
 }
 
+
 #header-btn-aside {
-	align-items: flex-start;
+	align-items: stretch;
 	display: flex;
-	flex-basis: 10%;
 	flex-flow: row-reverse;
-	float: right;
+	flex: 1 1;
 	font-size: small;
-	margin: 0;
 	position: fixed;
-	width: 100%;
+	order: 2;
+}
+
+#label-search {
+	right: 25px;
+	position: fixed;
+	font-size: 10px;
 }
 
 #input-search {
 	border: 1px inset #ccc;
 	border-radius: 10px;
-	box-shadow: 1px 1px 0 #646464;
+	box-shadow: 2px 1px 1px #646464 inset;
+	color: darkred;
 	cursor: pointer;
-	line-height: 1;
-	margin-inline: 3px 10px;
+	font-weight: 500;
+	height: 15px;
+	letter-spacing: -.5px;
+	margin-block: 25px 0;
+	margin-inline: 3px -20px;
+	padding: 3px 5px 1px 2px;
+	text-indent: 5px;
 	text-transform: capitalize;
-	width: inherit;
+	width: 100px;
+	word-spacing: 0px;
 }
 
-#btn-aside-nav > #theme-btn {
-	border: 1px solid #969696;
-	border-radius: 35px;
-	box-shadow: 0 0 5px #7a7a7a;
-	cursor: pointer;
-	position: fixed;
-	text-align: center;
+#btn-aside-nav {
+	margin-block: -10px 15px;
 }
+
+	#btn-aside-nav > #theme-btn {
+		border: 1px solid #969696;
+		border-radius: 35px;
+		box-shadow: 0 0 5px #7a7a7a;
+		cursor: pointer;
+		font-size: 80%;
+		height: 18px;
+		padding-block: 3px 2px;
+		padding-inline: 2px 1px;
+		position: fixed;
+		right: 10px;
+		text-align: center;
+		top: 10px;
+		width: 18px;
+	}
 
 #input-search ::-webkit-textfield-decoration-container {
 	stroke-width: 1;

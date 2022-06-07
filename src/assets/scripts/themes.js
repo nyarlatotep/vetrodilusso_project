@@ -3,23 +3,23 @@ const React = require( 'react' );
 export const Themes = {
 	dark: {
 		bodyTheme: {
-			backgroundColor: '#000',
+			backgroundColor: '#111',
 			color: '#eee',
 			textShadow: '0 0 10px rgb(160 160 160)',
 		},
 		content: {
-			backgroundColor: 'rgba(50 50 50 / 95%)',
+			backgroundColor: 'rgba(80 80 80 / 95%)',
 			color: 'rgb(220 220 220)'
 		}
 	},
 	light: {
 		bodyTheme: {
-			backgroundColor: '#fff',
-			color: '#222',
+			backgroundColor: '#ddd',
+			color: '#111',
 			textShadow: '0 0 6px rgb(60 60 60)'
 		},
 		content: {
-			backgroundColor: 'rgba(150 150 150 / 95%)',
+			backgroundColor: 'rgba(180 180 180 / 95%)',
 			color: 'rgb(5 5 5)',
 		}
 	}

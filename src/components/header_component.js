@@ -39,7 +39,7 @@ class Header extends React.Component {
 	}
 	render () {
 		const header = (
-			<header id='app-header' style={ { backgroundColor: this.state.theme.bodyTheme } }>
+			<header id='app-header'>
 				<aside id='header-logo-aside'>
 					{
 						this.state.theme === Themes.dark
@@ -57,8 +57,8 @@ class Header extends React.Component {
 							<ThemeButton onClick={ this.toogle_theme }>
 								{
 									this.state.theme === Themes.dark
-										? <FontAwesomeIcon icon='moon' />
-										: <FontAwesomeIcon icon='sun' />
+										? <FontAwesomeIcon icon='sun' />
+										: <FontAwesomeIcon icon='moon' />
 								}
 							</ThemeButton>
 						</ThemeContext.Provider>
@@ -66,7 +66,7 @@ class Header extends React.Component {
 							<FontAwesomeIcon icon='magnifying-glass' />
 							<input
 								type='text'
-								placeholder=' Type here... '
+								placeholder=' search... '
 								id='input-search'
 							/>
 						</label>

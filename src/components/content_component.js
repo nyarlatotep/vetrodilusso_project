@@ -4,6 +4,7 @@ const React = require( 'react' );
 class BodyContent extends React.Component {
 	render () {
 		return (
+			<div id='div-content'>
 			<section
 				style={ this.props.theme }
 				id='intro-section'>
@@ -20,8 +21,7 @@ class BodyContent extends React.Component {
 
 					<p className='intro-ps' id='intro-p-two'>
 						Contamos con una amplia línea de productos de alta calidad, así como con <strong>
-							personal <br />
-							cualificado y capacitado, para brindarle atención personalizada, pronta y eficaz.
+							personal cualificado y capacitado, para brindarle atención personalizada, pronta y eficaz.
 						</strong>
 					</p>
 
@@ -38,8 +38,14 @@ class BodyContent extends React.Component {
 				<aside id='content-aside'>
 					<img src={ intro_img } alt='decorative banner' id='intro-img' />
 				</aside>
-			</section>
+				</section>
+				</div>
 		);
 	};
 }
+
+function dragElement () {
+
+}
+
 export default BodyContent;
