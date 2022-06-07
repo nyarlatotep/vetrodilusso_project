@@ -44,8 +44,6 @@ class BodyContent extends React.Component {
 	};
 }
 
-function dragElement () {
 
-}
 
 export default BodyContent;
