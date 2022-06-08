@@ -1,6 +1,5 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './assets/css/index.css';
 import Header from './components/header_component';
 import reportWebVitals from './test/reportWebVitals';
 
