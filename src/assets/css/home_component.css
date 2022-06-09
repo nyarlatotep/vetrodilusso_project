@@ -1,17 +1,171 @@
 ﻿#div-content {
+	align-content: baseline;
+	align-items: baseline;
+	align-self: stretch;
 	display: flex;
 	flex-flow: row wrap;
 	justify-content: center;
-	align-content: baseline;
+	flex: 1 1;
+	width: 700px;
+	margin: auto;
 	height: 100%;
 }
 
-.drop-target {
+#markdown-content::-webkit-scrollbar,
+.content::-webkit-scrollbar {
+	background-color: rgb(50 50 50 / .5%);
+	border-radius: 19px;
+	width: 15px;
+	cursor: default;
+}
+
+#markdown-content::-webkit-scrollbar-track-piece,
+.content::-webkit-scrollbar-track-piece {
+	background-color: rgb(60 60 60 / 15%);
+	margin-block: 5px;
+	border-radius: 20px;
+}
+
+#markdown-content::-webkit-scrollbar-thumb,
+.content::-webkit-scrollbar-thumb {
+	background-color: rgb(50 41 70 / 40%);
+	box-shadow: 1px 1px 2px inset #333;
+	border-radius: 1400px;
+	border-block: 2px double rgb(150 150 150);
+	border-inline: 2px double rgb(150 150 150);
+}
+
+	#markdown-content::-webkit-scrollbar-thumb:hover,
+	.content::-webkit-scrollbar-thumb:hover {
+		background-color: rgb(150 141 170 / 70%);
+		border-block: 2px double rgb(180 10 10);
+		border-inline: 2px double rgb(180 10 10);
+		cursor: grab;
+	}
+
+#markdown-content::-webkit-scrollbar-button,
+.content::-webkit-scrollbar-button {
+	background-color: rgb(200 20 21 / 70%);
+	height: 15px;
+	border: 2px double rgb(100 30 30);
+	border-radius: 80px 170px 30px 360px;
 	display: flex;
-	flex-flow: row wrap;
-	justify-content: center;
-	align-content: baseline;
-	height: 100%;
+	box-shadow: 2px -1px 1px inset #888;
+	cursor: pointer;
+}
+
+	#markdown-content::-webkit-scrollbar-button:hover,
+	.content::-webkit-scrollbar-button:hover {
+		background-color: rgb(30 60 110);
+		border: 2px double rgb(190 40 41 / 90%);
+		cursor: pointer;
+	}
+
+.markdownEditor {
+	align-items: stretch;
+	align-self: flex-start;
+	border: 2px solid rgba(60,110,120,.4);
+	border-radius: 50px;
+	box-shadow: 0px 0px 3px rgb(90 110 120 / 90%);
+	cursor: auto;
+	display: flex;
+	width: stretch;
+	flex-flow: column wrap;
+	height: auto;
+	justify-content: space-evenly;
+	justify-self: end;
+	margin-block: 100px;
+	order: 1;
+	max-width: 800px;
+}
+
+#markdown-article {
+	align-items: inherit;
+	align-content: center;
+	background-color: rgba(60,110,120,.4);
+	border-block: 2px solid rgba(60,110,120,.4);
+	border-radius: 50px;
+	box-shadow: -1px -2px 1px rgb(60 110 120 / 50%);
+	display: flex;
+	flex: 100px;
+	flex-flow: column wrap;
+	justify-content: space-between;
+	margin: 0;
+	padding: 10px;
+	padding-inline: 15px;
+	height: 400px;
+}
+
+#fieldset-1 {
+	align-content: flex-start;
+	align-items: flex-start;
+	background-color: rgba(187 195 155 / .6);
+	border-radius: 45px;
+	height: 290px;
+	display: flex;
+	flex-flow: column nowrap;
+	flex: 2 0 100%;
+	justify-content: flex-start;
+	justify-items: flex-start;
+	order: 0;
+	width: 320px;
+}
+
+	#fieldset-1 > legend {
+		border-radius: 17px 27px 0px 17px;
+		margin-block: 5px -4px;
+		margin-inline: -15px 0;
+		padding-inline: 10px;
+		padding-block: 10px 3px;
+	}
+
+	#fieldset-1 label {
+		padding-bottom: 10px;
+		margin-left: 5px;
+	}
+
+#markdown-content {
+	height: stretch;
+	margin-block: auto;
+	border-radius: 20px 20px 50px 50px;
+	text-align: center;
+	width: 300px;
+}
+
+#fieldset-2 {
+	align-content: flex-end;
+	align-items: center;
+	background-color: rgba(177 165 115 / .5);
+	border-radius: 45px;
+	display: flex;
+	flex-flow: column-reverse nowrap;
+	flex: 2 0 100%;
+	height: 290px;
+	justify-content: flex-start;
+	order: 1;
+	width: 330px;
+	overflow-y: auto;
+}
+
+	#fieldset-2 > legend {
+		border-radius: 27px 17px 17px 0px;
+		margin-block: 5px -4px;
+		margin-inline: 0px -15px;
+		padding-inline: 10px;
+		padding-block: 10px 3px;
+	}
+
+.content {
+	overflow-y: auto;
+	margin-top: 50px;
+	border-top: 7px ridge rgb(187 187 187);
+	border-inline: 5px #ccc ridge;
+	border-radius: 30px 10px 1px 31px;
+	padding-inline: 20px 25px;
+	background-color: #1a4e5565;
+	font-size: 13px;
+	width: 320px;
+	height: auto;
 }
 
 #intro-section {
@@ -47,8 +201,20 @@
 		height: auto;
 	}
 
+	.markdownEditor {
+		flex-flow: column nowrap;
+		justify-content: center;
+		height: auto;
+	}
+
 	@media all and (min-width: 300px) {
 		#intro-section {
+			flex-flow: column nowrap;
+			flex: 1 1;
+			max-width: 285px;
+		}
+
+		.markdownEditor {
 			flex-flow: column nowrap;
 			flex: 1 1;
 			max-width: 285px;
@@ -136,14 +302,14 @@
 
 #intro-article > h2 {
 	font-feature-settings: "unic";
-	background: rgb(214 5 9 / 20%);
+	background: rgb(214 5 9 / 30%);
 	border-bottom: 3px groove rgb(150 150 165);
 	border-radius: 35px 50px 30px 20px;
 	font-variant: unicase;
 	margin-block: 15px 25px;
 	padding-bottom: 1px;
 	text-indent: -10px;
-	text-shadow: 0 -1px 3px #254655;
+	text-shadow: 0 0px 2px #254655;
 	width: 180px;
 	font-size: 18px;
 }

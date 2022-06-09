@@ -24,6 +24,26 @@ code {
 	font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
 }
 
+fieldset {
+	border: 0;
+	margin-block: -5px -1px;
+	margin-inline: 5px;
+	padding-block: 20px 0;
+}
+
+legend {
+	font-size: 15px;
+	background-color: rgb(153, 36, 36, 0.50);
+	text-align: center;	
+	width: 140px;
+	font-variant: small-caps;
+	font-display: swap;
+	font-family: Cambria;
+	word-spacing: -.5px;
+	letter-spacing: 0px;
+	text-indent: -1px;
+}
+
 #intro-aside {
 	order: 1;
 }

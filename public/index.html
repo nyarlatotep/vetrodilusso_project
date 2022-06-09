@@ -19,15 +19,12 @@
 	<link rel="apple-touch-icon" href="./logo64.png" />
 	<link rel="manifest" href="./manifest.json" />
 	<title>Vetro Di Lusso</title>
-</head>
-<body>
-	<noscript>You need to enable JavaScript to run this app.</noscript>
-	<div id="root"></div>
+
 
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
 	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
 	<script>
-		$( '.draggable' ).draggable( {
+		$( 'section' ).draggable( {
 			scroll: true,
 			scrollSensitivity: 50,
 			drag: function ( event, ui ) {
@@ -38,7 +35,7 @@
 			}
 		} );
 
-		$( '.dropzone' ).droppable( {
+		$( 'div' ).droppable( {
 			over: function ( event, ui ) {
 				addClass( 'dragover' )
 			},
@@ -47,5 +44,11 @@
 			}
 		} );
 	</script>
+</head>
+<body>
+	<noscript>You need to enable JavaScript to run this app.</noscript>
+	<div id="root"></div>
+
+
 </body>
 </html>
