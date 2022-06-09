@@ -2,21 +2,43 @@
 	display: flex;
 	flex-flow: row wrap;
 	justify-content: center;
+	align-content: baseline;
+	height: 100%;
+}
+
+.drop-target {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+	align-content: baseline;
+	height: 100%;
 }
 
 #intro-section {
+	align-items: center;
+	align-self: center;
 	border: 3px groove #7f7f7f;
 	border-radius: 30px;
 	height: 300px;
 	display: flex;
 	flex-flow: row nowrap;
 	flex: 1 1 1000px;
-	align-items: center;
 	justify-content: flex-start;
+	justify-self: center;
 	margin-top: 2vmin;
 	max-width: 600px;
+	position: relative;
+	cursor: move;
 }
 
+.dragging {
+	opacity: .3;
+	cursor: grabbing;
+}
+
+.dragover {
+	opacity: .3;
+}
 
 @media all and (max-width: 700px) {
 	#intro-section {

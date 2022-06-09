@@ -1,7 +1,6 @@
 import './assets/css/App.css';
-import BodyContent from './components/content_component'
-import { Themes, ThemeContext } from './assets/scripts/themes'
-
+import BodyContent from './components/content_component';
+import { Themes, ThemeContext } from './assets/scripts/themes';
 
 function App ( props ) {
 	const elemnt = document.querySelector( 'body' );

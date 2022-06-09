@@ -2,24 +2,18 @@ import intro_img from '../assets/img/intro_img.jpg';
 const React = require( 'react' );
 
 class BodyContent extends React.Component {
-
-	//handleDrag ( event ) {
-	//	event.preventDefault();
-
-	//	var target = event.target;
-	//	var id = target.id;
-
-	//	return dragElement( id );
-	//}
-
 	render () {
 		return (
-			<div id='div-content'>
+			<div
+				dropzone='true'
+				className='dropzone'
+				id='div-content'
+			>
 				<section
 					style={ this.props.theme }
 					id='intro-section'
 					draggable={ true }
-				/*onDragStart={ this.handleDrag }*/
+					className='draggable'
 				>
 					<article id='intro-article'>
 						<h2>
@@ -49,21 +43,13 @@ class BodyContent extends React.Component {
 						</p>
 					</article>
 					<aside id='content-aside'>
-						<img src={ intro_img } alt='decorative banner' id='intro-img' />
+						<img src={ intro_img } draggable={ false } alt='decorative banner' id='intro-img' />
 					</aside>
 				</section>
 			</div >
 		);
-	};
+	}
 }
 
-//function dragElement ( ev ) {
-//	let dragged;
-
-//	var element = document.getElementById( `${ ev }` );
-//	var dropZone = document.querySelector( '.container' );
-//	element.style.cursor = 'grab';
-
-//}
 
 export default BodyContent;

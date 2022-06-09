@@ -30,6 +30,7 @@ code {
 
 #root {
 	order: 2;
+	user-select: none;
 }
 
 

@@ -20,8 +20,32 @@
 	<link rel="manifest" href="./manifest.json" />
 	<title>Vetro Di Lusso</title>
 </head>
-<body class="container">
+<body>
 	<noscript>You need to enable JavaScript to run this app.</noscript>
 	<div id="root"></div>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
+	<script>
+		$( '.draggable' ).draggable( {
+			scroll: true,
+			scrollSensitivity: 50,
+			drag: function ( event, ui ) {
+				$( this ).addClass( 'dragging' );
+			},
+			stop: function ( event, ui ) {
+				$( this ).removeClass( 'dragging' );
+			}
+		} );
+
+		$( '.dropzone' ).droppable( {
+			over: function ( event, ui ) {
+				addClass( 'dragover' )
+			},
+			drop: function ( event, ui ) {
+				removeClass( 'dragover' );
+			}
+		} );
+	</script>
 </body>
 </html>
