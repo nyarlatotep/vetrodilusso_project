@@ -24,6 +24,10 @@ code {
 	font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
 }
 
+li {
+	list-style: none;
+}
+
 fieldset {
 	border: 0;
 	margin-block: -5px -1px;
@@ -32,10 +36,10 @@ fieldset {
 }
 
 legend {
-	font-size: 15px;
+	font-size: 16px;
 	background-color: rgb(153, 36, 36, 0.50);
-	text-align: center;	
-	width: 140px;
+	text-align: center;
+	width: 180px;
 	font-variant: small-caps;
 	font-display: swap;
 	font-family: Cambria;
@@ -72,6 +76,47 @@ legend {
 	width: 100%;
 }
 
+a {
+	text-decoration: none;
+}
+
+#header-menu {
+	position: fixed;
+	display: flex;
+	order: 2;
+	right: 180px;
+	top: -5px;
+	width: 150px;
+	flex-flow: column nowrap;
+	flex: 1 0 100%;
+	justify-content: flex-end;
+	height: 55px;
+	align-items: baseline;
+}
+
+.anchor-btn {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	flex: 1 1 auto;
+	width: 150px;
+	background-color: rgba(110 120 120 / .2);
+	font-weight: 500;
+	padding-inline: 25px;
+	border-radius: 25px;
+	border: .2px groove #666;
+	margin-block: -4px 3px;
+	color: currentColor;
+	appearance: textfield;
+	cursor: pointer;
+}
+
+	.anchor-btn > svg {
+		color: rgb(200 10 15);
+		font-weight: 900;
+		text-shadow: 0px -3px 0px #000;
+	}
+
 #header-logo-aside {
 	align-content: center;
 	border: 2px solid rgb(120 120 120);
@@ -81,7 +126,7 @@ legend {
 	height: 55px;
 	left: 6px;
 	margin: 0;
-	order: 1;
+	order: 0;
 	padding-left: 2px;
 	padding-block: 2px;
 	position: fixed;
@@ -98,7 +143,7 @@ legend {
 }
 
 #app-logo {
-	aspect-ratio: 1.1;
+	aspect-ratio: 1.05;
 	border-image-slice: 20;
 	border-radius: 10px 9px 9px 10px;
 	box-shadow: 0 0 3px #ffe;
@@ -118,7 +163,7 @@ legend {
 	flex: 1 1;
 	font-size: small;
 	position: fixed;
-	order: 2;
+	order: 3;
 }
 
 #label-search {
@@ -159,11 +204,15 @@ legend {
 		padding-block: 3px 2px;
 		padding-inline: 2px 1px;
 		position: fixed;
-		right: 10px;
+		right: 15px;
 		text-align: center;
 		top: 10px;
 		width: 18px;
 	}
+
+#theme-btn > svg {
+	margin-right: -20px;
+}
 
 #input-search ::-webkit-textfield-decoration-container {
 	stroke-width: 1;

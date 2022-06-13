@@ -1,0 +1,1002 @@
+{
+	"productos": [
+		{
+			"producto": "bisagra ",
+			"tipo": "muro-vidrio",
+			"medida": {},
+			"clave": "hb 1001",
+			"categoría": "herrajes de baño "
+		},
+		{
+			"producto": "bisagra desfasada ",
+			"tipo": "muro-vidrio ",
+			"medida": {},
+			"especificación": "eco",
+			"clave": "hb 1002",
+			"categoría": "herrajes de baño "
+		},
+		{
+			"producto": "bisagra ",
+			"tipo": "vidrio-vidrio ",
+			"medida": {},
+			"especificación": "90°  eco",
+			"clave": "hb 1003",
+			"categoría": "herrajes de baño "
+		},
+		{
+			"producto": "bisagra  ",
+			"tipo": "vidrio-vidrio",
+			"medida": {},
+			"clave": "hb 1004",
+			"categoría": "herrajes de baño "
+		},
+		{
+			"producto": "bisagra ",
+			"tipo": "vidrio-vidrio  ",
+			"medida": {},
+			"especificación": "180° eco",
+			"clave": "hb 1005",
+			"categoría": "herrajes de baño "
+		},
+		{
+			"producto": "bisagra ",
+			"tipo": "pivote",
+			"medida": {},
+			"clave": "hb 1006",
+			"categoría": "herrajes de baño "
+		},
+		{
+			"producto": "bisagra ",
+			"tipo": "muro-vidrio ",
+			"medida": {},
+			"especificación": "latón",
+			"clave": "hb 1007",
+			"categoría": "herrajes de baño "
+		},
+		{
+			"producto": "bisagra desfasada ",
+			"tipo": "muro-vidrio",
+			"medida": {},
+			"especificación": "latón",
+			"clave": "hb 1008",
+			"categoría": "herrajes de baño "
+		},
+		{
+			"producto": "bisagra ",
+			"tipo": "vidrio-vidrio ",
+			"medida": {},
+			"especificación": "90° latón",
+			"clave": "hb 1009",
+			"categoría": "herrajes de baño "
+		},
+		{
+			"producto": "bisagra ",
+			"tipo": "vidrio-vidrio ",
+			"medida": {},
+			"especificación": "135° latón",
+			"clave": "hb 1010",
+			"categoría": "herrajes de baño "
+		},
+		{
+			"producto": "bisagra ",
+			"tipo": "180° vidrio-vidrio latón",
+			"medida": {},
+			"especificación": "latón",
+			"clave": "hb 1011",
+			"categoría": "herrajes de baño "
+		},
+		{
+			"producto": "bisagra ",
+			"tipo": "hidráulica",
+			"medida": {
+				"capacidad": "70"
+			},
+			"especificación": "kilogramos",
+			"clave": "hb 1012",
+			"categoría": "herrajes fachada exterior"
+		},
+		{
+			"producto": "bisagra ",
+			"tipo": "hidráulica",
+			"medida": {
+				"capacidad": "120"
+			},
+			"especificación": "kilogramos",
+			"clave": "hb 1013",
+			"categoría": "herrajes fachada exterior"
+		},
+		{
+			"producto": "bisagra ",
+			"tipo": "dorma",
+			"medida": {
+				"capacidad": "120"
+			},
+			"especificación": "kilogramos",
+			"clave": "hb 1014",
+			"categoría": "herrajes fachada exterior"
+		},
+		{
+			"producto": "bisagra ",
+			"tipo": "dorma",
+			"medida": {
+				"capacidad": "180"
+			},
+			"especificación": "kilogramos",
+			"clave": "hb 1015",
+			"categoría": "herrajes fachada exterior"
+		},
+		{
+			"producto": "herraje interior",
+			"tipo": "interior",
+			"medida": {},
+			"clave": "hb 1016",
+			"categoría": "herrajes fachada exterior"
+		},
+		{
+			"producto": "punto de giro loco a piso",
+			"tipo": "punto de giro a piso",
+			"medida": {},
+			"clave": "hb 1017",
+			"categoría": "herrajes fachada exterior"
+		},
+		{
+			"producto": "punto de giro a techo",
+			"tipo": "punto de giro a techo",
+			"medida": {},
+			"clave": "hb 1018",
+			"categoría": "herrajes fachada exterior"
+		},
+		{
+			"producto": "herraje superior",
+			"tipo": "superior",
+			"medida": {},
+			"clave": "hb 1019",
+			"categoría": "herrajes fachada exterior"
+		},
+		{
+			"producto": "herraje ",
+			"tipo": "muro antepecho ",
+			"medida": {},
+			"clave": "hb 1020",
+			"categoría": "herrajes fachada exterior"
+		},
+		{
+			"producto": "carguero ",
+			"tipo": "haideli",
+			"medida": {
+				"capacidad": "1"
+			},
+			"especificación": " ventosa ",
+			"clave": "lc 1029",
+			"categoría": "línea de carga "
+		},
+		{
+			"producto": "carguero ",
+			"tipo": "haideli",
+			"medida": {
+				"capacidad": "2"
+			},
+			"especificación": " ventosa ",
+			"clave": "lc 1030",
+			"categoría": "línea de carga "
+		},
+		{
+			"producto": "carguero ",
+			"tipo": "haideli",
+			"medida": {
+				"capacidad": "3"
+			},
+			"especificación": " ventosa ",
+			"clave": "lc 1031",
+			"categoría": "línea de carga "
+		},
+		{
+			"producto": "carguero de banda",
+			"tipo": "tipo banda",
+			"medida": {},
+			"clave": "lc 1032",
+			"categoría": "línea de carga "
+		},
+		{
+			"producto": "carguero ",
+			"tipo": "veribor",
+			"medida": {
+				"capacidad": "1"
+			},
+			"especificación": "ventosa ",
+			"clave": "lc 1033",
+			"categoría": "línea de carga "
+		},
+		{
+			"producto": "carguero ",
+			"tipo": "veribor",
+			"medida": {
+				"capacidad": "2"
+			},
+			"especificación": "ventosa ",
+			"clave": "lc 1034",
+			"categoría": "línea de carga "
+		},
+		{
+			"producto": "carguero ",
+			"tipo": "veribor",
+			"medida": {
+				"capacidad": "3"
+			},
+			"especificación": "ventosa",
+			"clave": "lc 1035",
+			"categoría": "línea de carga"
+		},
+		{
+			"producto": "bomba al vacío",
+			"medida": {
+				"capacidad": "8"
+			},
+			"especificación": "pulgadas",
+			"clave": "lc 1036",
+			"categoría": "línea de carga"
+		},
+		{
+			"producto": "bomba al vacío",
+			"medida": {
+				"capacidad": "9"
+			},
+			"especificación": "pulgadas",
+			"clave": "lc 1037",
+			"categoría": "línea de carga"
+		},
+		{
+			"producto": "bomba al vacío",
+			"medida": {
+				"capacidad": "10"
+			},
+			"especificación": "pulgadas",
+			"categoría": "línea de carga"
+		},
+		{
+			"producto": "guante ",
+			"tipo": "japones",
+			"medida": {},
+			"especificación": "latex azul",
+			"clave": "ls 1033",
+			"categoría": "línea de seguridad"
+		},
+		{
+			"producto": "chaleco ",
+			"tipo": "de mezclilla ",
+			"medida": {},
+			"especificación": "azul con ojillo",
+			"clave": "ls 1034",
+			"categoría": "línea de seguridad"
+		},
+		{
+			"producto": "chaparera ",
+			"tipo": "de mexclilla ",
+			"medida": {},
+			"especificación": "azul con ojillo",
+			"clave": "ls 1035",
+			"categoría": "línea de seguridad"
+		},
+		{
+			"producto": "muñequera de carnaza ",
+			"medida": {},
+			"especificación": "con ojillo ",
+			"clave": "ls 1036",
+			"categoría": "línea de seguridad"
+		},
+		{
+			"producto": "rueda de desbaste ",
+			"medida": {
+				"capacidad": "100"
+			},
+			"especificación": "diámetro (mm)",
+			"clave": "d 1036",
+			"categoría": "copas y muelas"
+		},
+		{
+			"producto": "ruedas de desbaste ",
+			"medida": {
+				"capacidad": "150"
+			},
+			"especificación": "diámetro (mm)",
+			"clave": "d 1036",
+			"categoría": "copas y muelas"
+		},
+		{
+			"producto": "ruedas de desbaste",
+			"medida": {
+				"capacidad": "175"
+			},
+			"especificación": "diámetro (mm)",
+			"clave": "d 1036",
+			"categoría": "copas y muelas"
+		},
+		{
+			"producto": "ruedas de desbaste ",
+			"medida": {
+				"capacidad": "200"
+			},
+			"especificación": "diámetro (mm)",
+			"clave": "d 1036",
+			"categoría": "copas y muelas"
+		},
+		{
+			"producto": "ruedas de desbaste ",
+			"tipo": "para vidrio ",
+			"medida": {
+				"capacidad": "3"
+			},
+			"especificación": "espesor (mm)",
+			"clave": "d 1036",
+			"categoría": "copas y muelas"
+		},
+		{
+			"producto": "ruedas de desbaste ",
+			"tipo": "para vidrio ",
+			"medida": {
+				"capacidad": "4"
+			},
+			"especificación": "espesor (mm)",
+			"clave": "d 1036",
+			"categoría": "copas y muelas"
+		},
+		{
+			"producto": "ruedas de desbaste ",
+			"tipo": "para vidrio ",
+			"medida": {
+				"capacidad": "5"
+			},
+			"especificación": "espesor (mm)",
+			"clave": "d 1036",
+			"categoría": "copas y muelas"
+		},
+		{
+			"producto": "ruedas de desbaste ",
+			"tipo": "para vidrio ",
+			"medida": {
+				"capacidad": "6"
+			},
+			"especificación": "espesor (mm)",
+			"clave": "d 1036",
+			"categoría": "copas y muelas"
+		},
+		{
+			"producto": "ruedas de desbaste ",
+			"tipo": "para vidrio ",
+			"medida": {
+				"capacidad": "10"
+			},
+			"especificación": "espesor (mm)",
+			"clave": "d 1036",
+			"categoría": "copas y muelas"
+		},
+		{
+			"producto": "ruedas de desbaste ",
+			"tipo": "para vidrio ",
+			"medida": {
+				"capacidad": "12"
+			},
+			"especificación": "espesor (mm)",
+			"clave": "d 1036",
+			"categoría": "copas y muelas"
+		},
+		{
+			"producto": "ruedas de desbaste ",
+			"tipo": "para vidrio ",
+			"medida": {
+				"capacidad": "19"
+			},
+			"especificación": "espesor (mm)",
+			"clave": "d 1036",
+			"categoría": "copas y muelas"
+		},
+		{
+			"producto": "ruedas de desbaste ",
+			"medida": {
+				"capacidad": "100"
+			},
+			"especificación": "granos",
+			"clave": "d 1036",
+			"categoría": "copas y muelas"
+		},
+		{
+			"producto": "ruedas de desbaste ",
+			"medida": {
+				"capacidad": "180"
+			},
+			"especificación": "granos",
+			"clave": "d 1036",
+			"categoría": "copas y muelas"
+		},
+		{
+			"producto": "ruedas de desbaste ",
+			"medida": {
+				"capacidad": "240"
+			},
+			"especificación": "granos",
+			"clave": "d 1036",
+			"categoría": "copas y muelas"
+		},
+		{
+			"producto": "ruedas de desbaste ",
+			"medida": {
+				"capacidad": "270"
+			},
+			"especificación": "granos",
+			"clave": "d 1036",
+			"categoría": "copas y muelas"
+		},
+		{
+			"producto": "disco para biseleado y canteado (diametro metálico)",
+			"tipo": "diámetro segmentado",
+			"medida": {
+				"capacidad": "100"
+			},
+			"especificación": "diámetro (mm)",
+			"clave": "d 1037",
+			"categoría": "discos bd linea metalica"
+		},
+		{
+			"producto": "disco para biseleado y canteado (diametro metálico)",
+			"tipo": "dámetro continuo",
+			"medida": {
+				"capacidad": "100"
+			},
+			"especificación": "diámetro (mm)",
+			"clave": "d 1037",
+			"categoría": "discos bd linea metalica"
+		},
+		{
+			"producto": "disco para biseleado y canteado (diametro metálico)",
+			"tipo": "diámetro segmentado",
+			"medida": {
+				"capacidad": "130"
+			},
+			"especificación": "diámetro (mm)",
+			"clave": "d 1037",
+			"categoría": "discos bd linea metalica"
+		},
+		{
+			"producto": "disco para biseleado y canteado (diametro metálico)",
+			"tipo": "dámetro continuo",
+			"medida": {
+				"capacidad": "130"
+			},
+			"especificación": "diámetro (mm)",
+			"clave": "d 1037",
+			"categoría": "discos bd linea metalica"
+		},
+		{
+			"producto": "disco para biseleado y canteado (diametro metálico)",
+			"tipo": "diámetro segmentado",
+			"medida": {
+				"capacidad": "150"
+			},
+			"especificación": "diámetro (mm)",
+			"clave": "d 1037",
+			"categoría": "discos bd linea metalica"
+		},
+		{
+			"producto": "disco para biseleado y canteado (diametro metálico)",
+			"tipo": "dámetro continuo",
+			"medida": {
+				"capacidad": "150"
+			},
+			"especificación": "diámetro (mm)",
+			"clave": "d 1037",
+			"categoría": "discos bd linea metalica"
+		},
+		{
+			"producto": "disco para biseleado y canteado (diametro metálico)",
+			"tipo": "diámetro segmentado",
+			"medida": {
+				"capacidad": "100"
+			},
+			"especificación": "granos",
+			"clave": "d 1037",
+			"categoría": "discos bd linea metalica"
+		},
+		{
+			"producto": "disco para biseleado y canteado (diametro metálico)",
+			"tipo": "dámetro continuo",
+			"medida": {
+				"capacidad": "100"
+			},
+			"especificación": "granos",
+			"clave": "d 1037",
+			"categoría": "discos bd linea metalica"
+		},
+		{
+			"producto": "disco para biseleado y canteado (diametro metálico)",
+			"tipo": "diámetro segmentado",
+			"medida": {
+				"capacidad": "240"
+			},
+			"especificación": "granos",
+			"clave": "d 1037",
+			"categoría": "discos bd linea metalica"
+		},
+		{
+			"producto": "disco para biseleado y canteado (diametro metálico)",
+			"tipo": "dámetro continuo",
+			"medida": {
+				"capacidad": "240"
+			},
+			"especificación": "granos",
+			"clave": "d 1037",
+			"categoría": "discos bd linea metalica"
+		},
+		{
+			"producto": "disco para biseleado y canteado (diametro metálico)",
+			"tipo": "diámetro segmentado",
+			"medida": {
+				"capacidad": "270"
+			},
+			"especificación": "granos",
+			"clave": "d 1037",
+			"categoría": "discos bd linea metalica"
+		},
+		{
+			"producto": "disco para biseleado y canteado (diametro metálico)",
+			"tipo": "dámetro continuo",
+			"medida": {
+				"capacidad": "270"
+			},
+			"especificación": "granos",
+			"clave": "d 1037",
+			"categoría": "discos bd linea metalica"
+		},
+		{
+			"producto": "disco para biseleado y canteado (diametro resina)",
+			"tipo": "diámetro segmentado",
+			"medida": {
+				"capacidad": "100"
+			},
+			"especificación": "diámetro (mm)",
+			"clave": "d 1037",
+			"categoría": "discos bd linea metalica"
+		},
+		{
+			"producto": "disco para biseleado y canteado (diametro resina)",
+			"tipo": "dámetro continuo",
+			"medida": {
+				"capacidad": "100"
+			},
+			"especificación": "diámetro (mm)",
+			"clave": "d 1037",
+			"categoría": "discos bd linea metalica"
+		},
+		{
+			"producto": "disco para biseleado y canteado (diametro resina)",
+			"tipo": "diámetro segmentado",
+			"medida": {
+				"capacidad": "150"
+			},
+			"especificación": "diámetro (mm)",
+			"clave": "d 1037",
+			"categoría": "discos bd linea metalica"
+		},
+		{
+			"producto": "disco para biseleado y canteado (diametro resina)",
+			"tipo": "dámetro continuo",
+			"medida": {
+				"capacidad": "150"
+			},
+			"especificación": "diámetro (mm)",
+			"clave": "d 1037",
+			"categoría": "discos bd linea metalica"
+		},
+		{
+			"producto": "disco para biseleado y canteado (diametro resina)",
+			"tipo": "diámetro segmentado",
+			"medida": {
+				"capacidad": "200"
+			},
+			"especificación": "granos",
+			"clave": "d 1037",
+			"categoría": "discos bd linea metalica"
+		},
+		{
+			"producto": "disco para biseleado y canteado (diametro resina)",
+			"tipo": "dámetro continuo",
+			"medida": {
+				"capacidad": "200"
+			},
+			"especificación": "granos",
+			"clave": "d 1037",
+			"categoría": "discos bd linea metalica"
+		},
+		{
+			"producto": "disco para biseleado y canteado (diametro resina)",
+			"tipo": "diámetro segmentado",
+			"medida": {
+				"capacidad": "240"
+			},
+			"especificación": "granos",
+			"clave": "d 1037",
+			"categoría": "discos bd linea metalica"
+		},
+		{
+			"producto": "disco para biseleado y canteado (diametro resina)",
+			"tipo": "dámetro continuo",
+			"medida": {
+				"capacidad": "240"
+			},
+			"especificación": "granos",
+			"clave": "d 1037",
+			"categoría": "discos bd linea metalica"
+		},
+		{
+			"producto": "disco para biseleado y canteado (diametro resina)",
+			"tipo": "diámetro segmentado",
+			"medida": {
+				"capacidad": "270"
+			},
+			"especificación": "granos",
+			"clave": "d 1037",
+			"categoría": "discos bd linea metalica"
+		},
+		{
+			"producto": "disco para biseleado y canteado (diametro resina)",
+			"tipo": "dámetro continuo",
+			"medida": {
+				"capacidad": "270"
+			},
+			"especificación": "granos",
+			"clave": "d 1037",
+			"categoría": "discos bd linea metalica"
+		},
+		{
+			"producto": "disco para biseleado y canteado (diametro resina)",
+			"tipo": "diámetro segmentado",
+			"medida": {
+				"capacidad": "500"
+			},
+			"especificación": "granos",
+			"clave": "d 1037",
+			"categoría": "discos bd linea metalica"
+		},
+		{
+			"producto": "disco para biseleado y canteado (diametro resina)",
+			"tipo": "dámetro continuo",
+			"medida": {
+				"capacidad": "500"
+			},
+			"especificación": "granos",
+			"clave": "d 1037",
+			"categoría": "discos bd linea metalica"
+		},
+		{
+			"producto": "disco para biseleado y canteado (diametro resina)",
+			"tipo": "diámetro segmentado",
+			"medida": {
+				"capacidad": "700"
+			},
+			"especificación": "granos",
+			"clave": "d 1037",
+			"categoría": "discos bd linea metalica"
+		},
+		{
+			"producto": "disco para biseleado y canteado (diametro resina)",
+			"tipo": "dámetro continuo",
+			"medida": {
+				"capacidad": "700"
+			},
+			"especificación": "granos",
+			"clave": "d 1037",
+			"categoría": "discos bd linea metalica"
+		},
+		{
+			"producto": "disco para pulido (copa l40)",
+			"tipo": "con plato",
+			"medida": {
+				"capacidad": "130"
+			},
+			"especificación": "diámetro (mm)",
+			"clave": "d 1037",
+			"categoría": "discos bd linea pulido"
+		},
+		{
+			"producto": "disco para pulido (copa l40)",
+			"tipo": "sin plato",
+			"medida": {
+				"capacidad": "130"
+			},
+			"especificación": "diámetro (mm)",
+			"clave": "d 1037",
+			"categoría": "discos bd linea pulido"
+		},
+		{
+			"producto": "disco para pulido (copa l40)",
+			"tipo": "con plato",
+			"medida": {
+				"capacidad": "150"
+			},
+			"especificación": "diámetro (mm)",
+			"clave": "d 1037",
+			"categoría": "discos bd linea pulido"
+		},
+		{
+			"producto": "disco para pulido (copa l40)",
+			"tipo": "sin plato",
+			"medida": {
+				"capacidad": "150"
+			},
+			"especificación": "diámetro (mm)",
+			"clave": "d 1037",
+			"categoría": "discos bd linea pulido"
+		},
+		{
+			"producto": "disco para pulido (copa x40)",
+			"tipo": "con plato",
+			"medida": {
+				"capacidad": "130"
+			},
+			"especificación": "diámetro (mm)",
+			"clave": "d 1037",
+			"categoría": "discos bd linea pulido"
+		},
+		{
+			"producto": "disco para pulido (copa x40)",
+			"tipo": "sin plato",
+			"medida": {
+				"capacidad": "130"
+			},
+			"especificación": "diámetro (mm)",
+			"clave": "d 1037",
+			"categoría": "discos bd linea pulido"
+		},
+		{
+			"producto": "disco para pulido (copa x40)",
+			"tipo": "con plato",
+			"medida": {
+				"capacidad": "150"
+			},
+			"especificación": "diámetro (mm)",
+			"clave": "d 1037",
+			"categoría": "discos bd linea pulido"
+		},
+		{
+			"producto": "disco para pulido (copa x40)",
+			"tipo": "sin plato",
+			"medida": {
+				"capacidad": "150"
+			},
+			"especificación": "diámetro (mm)",
+			"clave": "d 1037",
+			"categoría": "discos bd linea pulido"
+		},
+		{
+			"producto": "disco para pulido (copa x60)",
+			"tipo": "con plato",
+			"medida": {},
+			"especificación": "150x30x70",
+			"clave": "d 1037",
+			"categoría": "discos bd linea pulido"
+		},
+		{
+			"producto": "disco para pulido (copa x60)",
+			"tipo": "sin plato",
+			"medida": {},
+			"especificación": "150x30x70",
+			"clave": "d 1037",
+			"categoría": "discos bd linea pulido"
+		},
+		{
+			"producto": "disco para pulido (copa x80)",
+			"tipo": "con plato",
+			"medida": {},
+			"especificación": "150x30x70",
+			"clave": "d 1037",
+			"categoría": "discos bd linea pulido"
+		},
+		{
+			"producto": "disco para pulido (copa x80)",
+			"tipo": "sin plato",
+			"medida": {},
+			"especificación": "150x30x70",
+			"clave": "d 1037",
+			"categoría": "discos bd linea pulido"
+		},
+		{
+			"producto": "lijas ",
+			"tipo": "de banda",
+			"medida": {
+				"capacidad": "32x533"
+			},
+			"especificación": "milímetros",
+			"clave": "d 1039",
+			"categoría": "línea de lijas"
+		},
+		{
+			"producto": "lijas ",
+			"tipo": "de banda",
+			"medida": {
+				"capacidad": "76x457"
+			},
+			"especificación": "milímetros",
+			"clave": "d 1039",
+			"categoría": "línea de lijas"
+		},
+		{
+			"producto": "lijas ",
+			"tipo": "de banda",
+			"medida": {
+				"capacidad": "76x533"
+			},
+			"especificación": "milímetros",
+			"clave": "d 1039",
+			"categoría": "línea de lijas"
+		},
+		{
+			"producto": "lijas ",
+			"tipo": "de banda",
+			"medida": {
+				"capacidad": "76x610"
+			},
+			"especificación": "milímetros",
+			"clave": "d 1039",
+			"categoría": "línea de lijas"
+		},
+		{
+			"producto": "lijas ",
+			"tipo": "de banda",
+			"medida": {
+				"capacidad": "101x610"
+			},
+			"especificación": "milímetros",
+			"clave": "d 1039",
+			"categoría": "línea de lijas"
+		},
+		{
+			"producto": "lijas ",
+			"tipo": "de banda",
+			"medida": {
+				"capacidad": "1 1/8x21"
+			},
+			"especificación": "pulgadas",
+			"clave": "d 1039",
+			"categoría": "línea de lijas"
+		},
+		{
+			"producto": "lijas ",
+			"tipo": "de banda",
+			"medida": {
+				"capacidad": "3x18"
+			},
+			"especificación": "pulgadas",
+			"clave": "d 1039",
+			"categoría": "línea de lijas"
+		},
+		{
+			"producto": "lijas ",
+			"tipo": "de banda",
+			"medida": {
+				"capacidad": "3x21"
+			},
+			"especificación": "pulgadas",
+			"clave": "d 1039",
+			"categoría": "línea de lijas"
+		},
+		{
+			"producto": "lijas ",
+			"tipo": "de banda",
+			"medida": {
+				"capacidad": "3x24"
+			},
+			"especificación": "pulgadas",
+			"clave": "d 1039",
+			"categoría": "línea de lijas"
+		},
+		{
+			"producto": "lijas ",
+			"tipo": "de banda",
+			"medida": {
+				"capacidad": "4x24"
+			},
+			"especificación": "pulgadas",
+			"clave": "d 1039",
+			"categoría": "línea de lijas"
+		},
+		{
+			"producto": "lijas ",
+			"tipo": "de banda",
+			"medida": {
+				"capacidad": "g-40"
+			},
+			"especificación": "granulometría",
+			"clave": "d 1039",
+			"categoría": "línea de lijas"
+		},
+		{
+			"producto": "lijas ",
+			"tipo": "de banda",
+			"medida": {
+				"capacidad": "g-60"
+			},
+			"especificación": "granulometría",
+			"clave": "d 1039",
+			"categoría": "línea de lijas"
+		},
+		{
+			"producto": "lijas ",
+			"tipo": "de banda",
+			"medida": {
+				"capacidad": "g-80"
+			},
+			"especificación": "granulometría",
+			"clave": "d 1039",
+			"categoría": "línea de lijas"
+		},
+		{
+			"producto": "lijas ",
+			"tipo": "de banda",
+			"medida": {
+				"capacidad": "g-100"
+			},
+			"especificación": "granulometría",
+			"clave": "d 1039",
+			"categoría": "línea de lijas"
+		},
+		{
+			"producto": "lijas ",
+			"tipo": "de banda",
+			"medida": {
+				"capacidad": "g-120"
+			},
+			"especificación": "granulometría",
+			"clave": "d 1039",
+			"categoría": "línea de lijas"
+		},
+		{
+			"producto": "lijas ",
+			"tipo": "de banda",
+			"medida": {
+				"capacidad": "g-150"
+			},
+			"especificación": "granulometría",
+			"clave": "d 1039",
+			"categoría": "línea de lijas"
+		},
+		{
+			"producto": "lijas ",
+			"tipo": "de banda",
+			"medida": {
+				"capacidad": "g-180"
+			},
+			"especificación": "granulometría",
+			"clave": "d 1039",
+			"categoría": "línea de lijas"
+		},
+		{
+			"producto": "lijas ",
+			"tipo": "de banda",
+			"medida": {
+				"capacidad": "g-220"
+			},
+			"especificación": "granulometría",
+			"clave": "d 1039",
+			"categoría": "línea de lijas"
+		},
+		{
+			"producto": "lijas ",
+			"tipo": "de banda",
+			"medida": {
+				"capacidad": "g-320"
+			},
+			"especificación": "granulometría",
+			"clave": "d 1039",
+			"categoría": "línea de lijas"
+		},
+		{
+			"producto": "lijas ",
+			"tipo": "de banda",
+			"medida": {
+				"capacidad": "g-400"
+			},
+			"especificación": "granulometría",
+			"clave": "d 1039",
+			"categoría": "línea de lijas"
+		}
+	]
+}

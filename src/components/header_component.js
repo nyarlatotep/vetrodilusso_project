@@ -13,7 +13,8 @@ class Header extends React.Component {
 	constructor ( props ) {
 		super( props );
 		this.state = {
-			theme: Themes.dark
+			theme: Themes.dark,
+			url: '/'
 		};
 
 		this.toogle_theme = () => {
@@ -35,12 +36,39 @@ class Header extends React.Component {
 				} )
 			} )
 		}
-
 	}
+
+	page_navigator ( event ) {
+		var target = event.target;
+		var href = target.name;
+		this.setState( {
+			url: href,
+		} );
+	}
+
+	componentDidUpdate = ( state ) => {
+		var hash = window.location.hash;
+		return {
+			[ hash ]: state.url
+		}
+	}
+
+	componentWillUnmount ( state ) {
+		let location;
+		if ( state !== '/' ) {
+			location = window.location.hash;
+			location = state;
+		};
+		return location;
+	}
+
 	render () {
 		const header = (
 			<header id='app-header'>
-				<aside id='header-logo-aside'>
+				<aside id='header-logo-aside'
+					onClick={ () =>
+						this.setState( { url: '/' } )
+					}>
 					{
 						this.state.theme === Themes.dark
 							? <img src={ logo_bco } id='app-logo' alt='Vetro Di Lusso logo' />
@@ -50,6 +78,12 @@ class Header extends React.Component {
 						Vetro Di Lusso
 					</p>
 				</aside>
+
+				<menu id='header-menu'>
+					<nav>
+						<AnchorButtons handler={ ( e ) => this.page_navigator( e ) } />
+					</nav>
+				</menu>
 
 				<aside id='header-btn-aside'>
 					<nav id='btn-aside-nav'>
@@ -62,10 +96,11 @@ class Header extends React.Component {
 								}
 							</ThemeButton>
 						</ThemeContext.Provider>
+
 						<label id='label-search'>
 							<FontAwesomeIcon icon='magnifying-glass' />
 							<input
-								type='text'
+								type='search'
 								placeholder=' search... '
 								id='input-search'
 							/>
@@ -80,6 +115,7 @@ class Header extends React.Component {
 				<App
 					header={ header }
 					theme={ this.state.theme }
+					url={ this.state.url }
 				/>
 			</ThemeContext.Provider>
 		);
@@ -95,6 +131,7 @@ class ThemeButton extends React.Component {
 			<button
 				type='button'
 				id='theme-btn'
+				title='Toogle themes button'
 				style={ theme.bodyTheme }
 				{ ...props }
 				name='theme button' />
@@ -103,5 +140,33 @@ class ThemeButton extends React.Component {
 }
 ThemeButton.contextType = ThemeContext;
 
+function AnchorButtons ( props ) {
+	let arr = [];
+	const values = [
+		{ key: 1, name: 'Productos', href: '/products', icon: <FontAwesomeIcon icon='barcode' /> },
+		{ key: 2, name: 'Servicios', href: '/services', icon: <FontAwesomeIcon icon='shop' /> },
+		{ key: 3, name: 'Contacto', href: '/contactus', icon: <FontAwesomeIcon icon='phone' /> }
+	];
+
+	for ( var i = 0; i < values.length; i++ ) {
+		arr.push( values[ i ] );
+	}
+
+	return (
+		arr.map( element => {
+			return (
+				< button
+					onClick={ props.handler }
+					name={ element.href }
+					id={ element.name + 'anchor' }
+					className='anchor-btn'
+					key={ element.key }
+				>
+					{ element.name }{ '\n' }
+					{ element.icon }
+				</button>
+			)
+		} ) );
+}
 
 export default Header;

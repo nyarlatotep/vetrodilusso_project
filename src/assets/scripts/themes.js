@@ -5,7 +5,7 @@ export const Themes = {
 		bodyTheme: {
 			backgroundColor: '#111',
 			color: '#eee',
-			textShadow: '0 0 3px rgb(120 120 120)',
+			textShadow: '0 0 2px rgb(120 120 120)',
 		},
 		content: {
 			backgroundColor: 'rgba(80 80 80 / 95%)',
@@ -16,7 +16,7 @@ export const Themes = {
 		bodyTheme: {
 			backgroundColor: '#ddd',
 			color: '#111',
-			textShadow: '0 0 3px rgb(90 90 90)'
+			textShadow: '0 0 2px rgb(90 90 90)'
 		},
 		content: {
 			backgroundColor: 'rgba(180 180 180 / 95%)',
