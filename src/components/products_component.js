@@ -1,31 +1,32 @@
-import { MarkdownEditor } from './content_component';
-const React = require( 'react' );
+import { Component } from 'react';
 
-export class ProductPage extends React.Component {
-	static name = ProductPage.name;
+export class ProductsPage extends Component {
+	static name = ProductsPage.name;
 	constructor ( props ) {
 		super( props );
-
 		this.state = {
-			theme: this.props.theme
+			yourState: ''
 		};
 	};
 
-	componentDidMount = ( state, props ) => {
-
-		let location;
-		props = this.props;
-		if ( '/products' )
-			location = props.url;
-		return {
-			[ state ]: location
-		}
-	};
+	componentDidMount () {
+		// Mount your component
+	}
+	componentDidUpdate () {
+		// Update your component
+	}
+	componentWillUnmount () {
+		// Clean your component
+	}
 
 	render () {
 		return (
-			<MarkdownEditor theme={ this.props.theme } />
-		)
-	}
+			<>
+				<section id='product-section'>
+				</section>
+			</>
+		);
+	};
 
 }
+

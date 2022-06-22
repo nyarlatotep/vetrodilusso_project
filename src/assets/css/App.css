@@ -1,4 +1,5 @@
 @import url(home_component.css);
+@import url(contact_component.css);
 
 *, ::after, ::before {
 	box-sizing: border-box;
@@ -143,7 +144,7 @@ a {
 }
 
 #app-logo {
-	aspect-ratio: 1.05;
+	aspect-ratio: 1.02;
 	border-image-slice: 20;
 	border-radius: 10px 9px 9px 10px;
 	box-shadow: 0 0 3px #ffe;

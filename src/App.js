@@ -1,6 +1,8 @@
 import './assets/css/App.css';
 import BodyContent from './components/content_component';
-import { ProductPage } from './components/products_component';
+import { ServicePage } from './components/services_component';
+import { ProductsPage } from './components/products_component'
+import { ContactPage } from './components/contact_component';
 import { Themes, ThemeContext } from './assets/scripts/themes';
 
 function App ( props ) {
@@ -24,7 +26,7 @@ function App ( props ) {
 		window.location.hash = hash
 	}
 	else {
-			window.location.hash = '';
+		window.location.hash = '';
 	}
 
 
@@ -59,7 +61,43 @@ function App ( props ) {
 						className='dropzone'
 						id='div-content'
 					>
-						<ProductPage theme={ props.theme.bodyTheme } url={ props.url } />
+						<ProductsPage theme={ props.theme.bodyTheme } url={ props.url } />
+					</div>
+				</ThemeContext.Provider>
+			</>
+		);
+	if ( props.url === '/services' )
+		return (
+			<>
+				<div style={ props.theme.content } id='app-div-container'>
+					{ props.header }
+				</div>
+
+				<ThemeContext.Provider value={ props.theme.bodyTheme }>
+					<div
+						dropzone='true'
+						className='dropzone'
+						id='div-content'
+					>
+						<ServicePage theme={ props.theme.bodyTheme } url={ props.url } />
+					</div>
+				</ThemeContext.Provider>
+			</>
+		);
+	if ( props.url === '/contactus' )
+		return (
+			<>
+				<div style={ props.theme.content } id='app-div-container'>
+					{ props.header }
+				</div>
+
+				<ThemeContext.Provider value={ props.theme.bodyTheme }>
+					<div
+						dropzone='true'
+						className='dropzone'
+						id='div-content'
+					>
+						<ContactPage theme={ props.theme.bodyTheme } url={ props.url } />
 					</div>
 				</ThemeContext.Provider>
 			</>

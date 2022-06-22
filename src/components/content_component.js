@@ -108,7 +108,7 @@ export class MarkdownEditor extends React.Component {
 			} );
 		}
 		this.md = new Remarkable();
-	}
+	};
 
 	shouldComponentUpdate () {
 		return true;
@@ -185,7 +185,6 @@ function ListTable () {
 	const list = require( '../assets/data/ProductosVetro.json' );
 	const products = list.productos;
 	let li = [];
-
 
 	for ( let i = 0; i < products.length; i++ ) {
 		var prod = products[ i ];

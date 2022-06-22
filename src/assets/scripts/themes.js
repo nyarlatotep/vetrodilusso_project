@@ -16,7 +16,7 @@ export const Themes = {
 		bodyTheme: {
 			backgroundColor: '#ddd',
 			color: '#111',
-			textShadow: '0 0 2px rgb(90 90 90)'
+			textShadow: '0 0 1px rgb(90 90 90)'
 		},
 		content: {
 			backgroundColor: 'rgba(180 180 180 / 95%)',
