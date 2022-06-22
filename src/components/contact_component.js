@@ -35,7 +35,7 @@ const ContactMeans = ( props ) => {
 		{
 			key: 4, type: <b>Facturación:</b>, means: <a href='facturación@vetrodilusso.com' target='_blank' rel='mailto'>facturación@vetrodilusso.com</a>, icon: <FontAwesomeIcon color='rgb(56 133 144)' icon='file-invoice' />
 		},
-		{ key: 5, type: <b>Facebook:</b>, means: <a href='https://facebook.com/vetrodilusso' target='_blank' rel='external'>Vetro Di Lusso</a>, icon: <FontAwesomeIcon color='rgb(10 35 186)' icon={ faFacebook } /> },
+		{ key: 5, type: <b>Facebook:</b>, means: <a href='https://facebook.com/vetrodilusso' target='_blank' rel='noreferrer'>Vetro Di Lusso</a>, icon: <FontAwesomeIcon color='rgb(10 35 186)' icon={ faFacebook } /> },
 		{ key: 6, type: <b>WhatsApp:</b>, means: '+52 221 3911801', icon: <FontAwesomeIcon color='rgb(20 175 36)' icon={ faWhatsapp } /> },
 	];
 
