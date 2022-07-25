@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/static/css/main.9f10b4cd.css",
+    "main.js": "/static/js/main.eb6c6be7.js",
+    "static/js/787.16575069.chunk.js": "/static/js/787.16575069.chunk.js",
+    "static/media/logo_bco.png": "/static/media/logo_bco.7bfe97e2ce4c4f03eb38.png",
+    "static/media/logo_ngo.png": "/static/media/logo_ngo.8e1079b426d11335e3ab.png",
+    "static/media/intro_img.jpg": "/static/media/intro_img.70c6e776151297b54feb.jpg",
+    "index.html": "/index.html",
+    "main.9f10b4cd.css.map": "/static/css/main.9f10b4cd.css.map",
+    "main.eb6c6be7.js.map": "/static/js/main.eb6c6be7.js.map",
+    "787.16575069.chunk.js.map": "/static/js/787.16575069.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9f10b4cd.css",
+    "static/js/main.eb6c6be7.js"
+  ]
+}
